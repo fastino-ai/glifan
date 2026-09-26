@@ -1,0 +1,203 @@
+{
+ "season": 2026,
+ "current_week": 3,
+ "weeks": [],
+ "schedule": {
+  "3": [
+   [
+    "jev",
+    "experts"
+   ],
+   [
+    "decide_base",
+    "glifan"
+   ],
+   [
+    "hot_hand",
+    "season_avg"
+   ]
+  ],
+  "4": [
+   [
+    "jev",
+    "glifan"
+   ],
+   [
+    "experts",
+    "season_avg"
+   ],
+   [
+    "decide_base",
+    "hot_hand"
+   ]
+  ],
+  "5": [
+   [
+    "jev",
+    "season_avg"
+   ],
+   [
+    "glifan",
+    "hot_hand"
+   ],
+   [
+    "experts",
+    "decide_base"
+   ]
+  ],
+  "6": [
+   [
+    "jev",
+    "hot_hand"
+   ],
+   [
+    "season_avg",
+    "decide_base"
+   ],
+   [
+    "glifan",
+    "experts"
+   ]
+  ],
+  "7": [
+   [
+    "jev",
+    "decide_base"
+   ],
+   [
+    "hot_hand",
+    "experts"
+   ],
+   [
+    "season_avg",
+    "glifan"
+   ]
+  ],
+  "8": [
+   [
+    "jev",
+    "experts"
+   ],
+   [
+    "decide_base",
+    "glifan"
+   ],
+   [
+    "hot_hand",
+    "season_avg"
+   ]
+  ],
+  "9": [
+   [
+    "jev",
+    "glifan"
+   ],
+   [
+    "experts",
+    "season_avg"
+   ],
+   [
+    "decide_base",
+    "hot_hand"
+   ]
+  ],
+  "10": [
+   [
+    "jev",
+    "season_avg"
+   ],
+   [
+    "glifan",
+    "hot_hand"
+   ],
+   [
+    "experts",
+    "decide_base"
+   ]
+  ],
+  "11": [
+   [
+    "jev",
+    "hot_hand"
+   ],
+   [
+    "season_avg",
+    "decide_base"
+   ],
+   [
+    "glifan",
+    "experts"
+   ]
+  ],
+  "12": [
+   [
+    "jev",
+    "decide_base"
+   ],
+   [
+    "hot_hand",
+    "experts"
+   ],
+   [
+    "season_avg",
+    "glifan"
+   ]
+  ],
+  "13": [
+   [
+    "jev",
+    "experts"
+   ],
+   [
+    "decide_base",
+    "glifan"
+   ],
+   [
+    "hot_hand",
+    "season_avg"
+   ]
+  ],
+  "14": [
+   [
+    "jev",
+    "glifan"
+   ],
+   [
+    "experts",
+    "season_avg"
+   ],
+   [
+    "decide_base",
+    "hot_hand"
+   ]
+  ],
+  "15": [
+   [
+    "jev",
+    "season_avg"
+   ],
+   [
+    "glifan",
+    "hot_hand"
+   ],
+   [
+    "experts",
+    "decide_base"
+   ]
+  ]
+ },
+ "playoffs": {
+  "16": "semifinal",
+  "17": "final"
+ },
+ "slots": [
+  "QB",
+  "RB",
+  "RB",
+  "WR",
+  "WR",
+  "TE",
+  "FLEX"
+ ],
+ "updated_at": "2026-09-26T15:27:31.711848+00:00"
+}
