@@ -33,7 +33,7 @@ export default function How() {
           <li><b>Locked at kickoff.</b> Lineups refresh with injury news until each game starts, then freeze. Every lineup is
             committed to <a href="https://github.com/fastino-ai/glifan">GitHub</a> before kickoff.</li>
           <li><b>Standard scoring.</b> PPR, one QB, two RB, two WR, one TE and one RB/WR/TE flex, head-to-head matchups,
-            weeks 3&ndash;15 regular season, top four make the playoffs in weeks 16&ndash;17.</li>
+            weeks 4&ndash;15 regular season, top four make the playoffs in weeks 16&ndash;17.</li>
         </ul>
         <p className="note">One known difference: Jev receives a short description with each label (for example what counts as a
           &quot;start&quot;), while the two GLiNER managers receive the label names only, because the Fastino API doesn&apos;t yet accept
@@ -47,6 +47,24 @@ export default function How() {
         <pre className="note" style={{ whiteSpace: "pre-wrap", fontSize: 12 }}>position: WR | week: 3 | home: yes | last3_ppr: 17.4 | trend: up | season_avg_ppr: 25.3 | targets_l3: 6.0 | target_share_l3: 20% | snap_pct_l3: 67% | matchup_rank: 8 of 32 (easy) | implied_team_total: 25.0 | spread: +3.5 | game_total: 53.5 | injury: healthy | practice: full | weather: outdoors</pre>
         <p>A manager&apos;s lineup is its highest-ranked players by <code>P(start) + ½·P(flex) − ½·P(bench)</code>, filled into
           QB, RB, RB, WR, WR, TE and FLEX. Players ruled out on the injury report are never started.</p>
+      </section>
+
+      <section>
+        <h2>Before the season: a 2025 replay</h2>
+        <p>We replayed the 2025 season, which glifan never trained on, as a 12-team league with the same draft for everyone,
+          putting one manager in each draft seat against eleven season-average managers:</p>
+        <table>
+          <thead><tr><th>Manager</th><th className="num">Avg wins (of 14)</th><th className="num">Playoffs</th>
+            <th className="num">Titles</th><th className="num">Share of perfect points</th></tr></thead>
+          <tbody>
+            <tr className="us"><td>glifan (fine-tuned)</td><td className="num">7.7</td><td className="num">7 / 12</td><td className="num">3 / 12</td><td className="num">86.9%</td></tr>
+            <tr><td>Hot hand</td><td className="num">7.2</td><td className="num">6 / 12</td><td className="num">2 / 12</td><td className="num">88.1%</td></tr>
+            <tr><td>Season average</td><td className="num">&ndash;</td><td className="num">&ndash;</td><td className="num">&ndash;</td><td className="num">87.8%</td></tr>
+            <tr><td>Decide (untrained)</td><td className="num">5.5</td><td className="num">3 / 12</td><td className="num">1 / 12</td><td className="num">79.7%</td></tr>
+          </tbody>
+        </table>
+        <p className="meta">Fine-tuning lifted Decide from 41.5% to 59.3% of weekly start/flex/bench tiers right. glifan won the
+          most head-to-head, though it scored slightly fewer total points than the simple rules, so this season is a real contest.</p>
       </section>
 
       <section>

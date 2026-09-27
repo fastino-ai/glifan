@@ -29,7 +29,7 @@ SLOTS = [("QB", ("QB",)), ("RB", ("RB",)), ("RB", ("RB",)), ("WR", ("WR",)), ("W
 LIMITS = {"QB": 2, "RB": 5, "WR": 5, "TE": 2}
 MINIMUMS = {"QB": 1, "RB": 3, "WR": 3, "TE": 1}
 ROUNDS = 13
-REGULAR_WEEKS = range(3, 16)
+REGULAR_WEEKS = range(4, 16)
 PLAYOFF = {16: "semifinal", 17: "final"}
 SEED = "glifan-2026"
 
@@ -151,7 +151,8 @@ def lineups():
     season, week = current_week(g)
     dr = read(season_dir(season) / "draft.json")
     if not dr or week is None or week not in list(REGULAR_WEEKS) + list(PLAYOFF):
-        sys.exit(f"nothing to do (season {season}, week {week}, drafted={bool(dr)})")
+        print(f"nothing to do (season {season}, week {week}, drafted={bool(dr)})")
+        return
     t = now()
     league_start = datetime.fromisoformat(dr["league_start"])
     kick = {}

@@ -41,6 +41,23 @@ export default function Home() {
         )}
       </section>
 
+      {!week && (
+        <section>
+          <h2>Week 4 kicks off the season</h2>
+          <p className="meta">The regular season runs weeks 4&ndash;15. Every manager sets its Week 4 lineup before Thursday
+            night&apos;s kickoff and refreshes it with injury news until each game starts. First matchups:</p>
+          <table>
+            <tbody>
+              {(meta.schedule["4"] ?? []).map(([a, b]) => (
+                <tr key={a + b}><td><span className="dot" style={{ background: MANAGERS[a].color }} />{MANAGERS[a].name}</td>
+                  <td className="meta">vs</td>
+                  <td><span className="dot" style={{ background: MANAGERS[b].color }} />{MANAGERS[b].name}</td></tr>
+              ))}
+            </tbody>
+          </table>
+        </section>
+      )}
+
       {week && (
         <section>
           <h2>Week {week.week} matchups <small>{week.results ? "final" : "lineups lock at each game's kickoff"}</small></h2>
