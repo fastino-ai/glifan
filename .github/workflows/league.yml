@@ -7,7 +7,7 @@ on:
     - cron: "45 15 * * 0"    # Sun 15:45 UTC: after inactives, before 1pm ET games
     - cron: "45 19 * * 0"    # Sun 19:45 UTC: before late games
     - cron: "0 22 * * 1"     # Mon 22:00 UTC: before Monday Night Football
-    - cron: "0 12 * * 2,3"   # Tue/Wed 12:00 UTC: grade the finished week
+    - cron: "0 12 * * 2,3"   # Tue/Wed 12:00 UTC: grade the finished week, set next week's lineups
   workflow_dispatch:
     inputs:
       task:
@@ -42,8 +42,8 @@ jobs:
       - name: Pick task
         id: task
         run: |
+          # Every run also grades finished weeks, so scheduled runs always set lineups for the upcoming week.
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "task=${{ inputs.task }}" >> "$GITHUB_OUTPUT";
-          elif [ "${{ github.event.schedule }}" = "0 12 * * 2,3" ]; then echo "task=grade" >> "$GITHUB_OUTPUT";
           else echo "task=lineups" >> "$GITHUB_OUTPUT"; fi
       - name: Check configuration
         run: |
