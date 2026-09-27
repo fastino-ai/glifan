@@ -45,11 +45,21 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "task=${{ inputs.task }}" >> "$GITHUB_OUTPUT";
           elif [ "${{ github.event.schedule }}" = "0 12 * * 2,3" ]; then echo "task=grade" >> "$GITHUB_OUTPUT";
           else echo "task=lineups" >> "$GITHUB_OUTPUT"; fi
+      - name: Check configuration
+        run: |
+          missing=""
+          [ -n "$FASTINO_API_KEY" ] || missing="$missing FASTINO_API_KEY(secret)"
+          [ -n "$AI_GATEWAY_API_KEY" ] || missing="$missing AI_GATEWAY_API_KEY(secret)"
+          [ -n "$GLIFAN_MODEL" ] || missing="$missing GLIFAN_MODEL(variable)"
+          if [ -n "$missing" ]; then echo "::error::missing:$missing"; exit 1; fi
       - name: Run
         run: |
-          python pipeline/league.py ${{ steps.task.outputs.task }} || echo "::warning::league ${{ steps.task.outputs.task }} exited non-zero"
+          status=0
+          python pipeline/league.py ${{ steps.task.outputs.task }} || status=$?
           python pipeline/league.py grade
           python pipeline/league.py publish
+          if grep -l '"error"' league/*/week*.json >/dev/null 2>&1; then echo "::warning::a manager failed to rank this run; see league/*/week*.json"; fi
+          exit $status
       - name: Commit
         run: |
           git config user.name "glifan-bot"
