@@ -3,7 +3,7 @@
  "current_week": 3,
  "weeks": [],
  "schedule": {
-  "3": [
+  "4": [
    [
     "jev",
     "experts"
@@ -15,123 +15,123 @@
    [
     "hot_hand",
     "season_avg"
-   ]
-  ],
-  "4": [
-   [
-    "jev",
-    "glifan"
-   ],
-   [
-    "experts",
-    "season_avg"
-   ],
-   [
-    "decide_base",
-    "hot_hand"
    ]
   ],
   "5": [
    [
     "jev",
-    "season_avg"
-   ],
-   [
-    "glifan",
-    "hot_hand"
+    "glifan"
    ],
    [
     "experts",
-    "decide_base"
+    "season_avg"
+   ],
+   [
+    "decide_base",
+    "hot_hand"
    ]
   ],
   "6": [
    [
     "jev",
-    "hot_hand"
-   ],
-   [
-    "season_avg",
-    "decide_base"
+    "season_avg"
    ],
    [
     "glifan",
-    "experts"
+    "hot_hand"
+   ],
+   [
+    "experts",
+    "decide_base"
    ]
   ],
   "7": [
    [
     "jev",
-    "decide_base"
-   ],
-   [
-    "hot_hand",
-    "experts"
+    "hot_hand"
    ],
    [
     "season_avg",
-    "glifan"
+    "decide_base"
+   ],
+   [
+    "glifan",
+    "experts"
    ]
   ],
   "8": [
    [
     "jev",
-    "experts"
-   ],
-   [
-    "decide_base",
-    "glifan"
+    "decide_base"
    ],
    [
     "hot_hand",
-    "season_avg"
+    "experts"
+   ],
+   [
+    "season_avg",
+    "glifan"
    ]
   ],
   "9": [
    [
     "jev",
-    "glifan"
-   ],
-   [
-    "experts",
-    "season_avg"
+    "experts"
    ],
    [
     "decide_base",
-    "hot_hand"
+    "glifan"
+   ],
+   [
+    "hot_hand",
+    "season_avg"
    ]
   ],
   "10": [
    [
     "jev",
-    "season_avg"
-   ],
-   [
-    "glifan",
-    "hot_hand"
+    "glifan"
    ],
    [
     "experts",
-    "decide_base"
+    "season_avg"
+   ],
+   [
+    "decide_base",
+    "hot_hand"
    ]
   ],
   "11": [
    [
     "jev",
-    "hot_hand"
-   ],
-   [
-    "season_avg",
-    "decide_base"
+    "season_avg"
    ],
    [
     "glifan",
-    "experts"
+    "hot_hand"
+   ],
+   [
+    "experts",
+    "decide_base"
    ]
   ],
   "12": [
    [
     "jev",
+    "hot_hand"
+   ],
+   [
+    "season_avg",
+    "decide_base"
+   ],
+   [
+    "glifan",
+    "experts"
+   ]
+  ],
+  "13": [
+   [
+    "jev",
     "decide_base"
    ],
    [
@@ -143,7 +143,7 @@
     "glifan"
    ]
   ],
-  "13": [
+  "14": [
    [
     "jev",
     "experts"
@@ -157,7 +157,7 @@
     "season_avg"
    ]
   ],
-  "14": [
+  "15": [
    [
     "jev",
     "glifan"
@@ -169,20 +169,6 @@
    [
     "decide_base",
     "hot_hand"
-   ]
-  ],
-  "15": [
-   [
-    "jev",
-    "season_avg"
-   ],
-   [
-    "glifan",
-    "hot_hand"
-   ],
-   [
-    "experts",
-    "decide_base"
    ]
   ]
  },
@@ -199,5 +185,5 @@
   "TE",
   "FLEX"
  ],
- "updated_at": "2026-09-27T19:47:50.711780+00:00"
+ "updated_at": "2026-09-27T20:56:40.581560+00:00"
 }
