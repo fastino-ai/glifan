@@ -12,16 +12,16 @@ export default function LineChart({ labels, series, title, height = 240 }: {
   return (
     <div className="chart">
       <svg viewBox={`0 0 ${W} ${H}`} width="100%" role="img" aria-label={title}>
-        <text x={pad.l} y={16} fill="#e8edf6" fontSize="13" fontWeight="600">{title}</text>
+        <text x={pad.l} y={16} fill="var(--chart-ink)" fontSize="13" fontWeight="600">{title}</text>
         {ticks.map((t) => (
           <g key={t}>
-            <line x1={pad.l} x2={W - pad.r} y1={y(t)} y2={y(t)} stroke="#1f2738" />
-            <text x={pad.l - 6} y={y(t) + 4} fill="#8a96ab" fontSize="11" textAnchor="end">{Math.round(t)}</text>
+            <line x1={pad.l} x2={W - pad.r} y1={y(t)} y2={y(t)} stroke="var(--chart-grid)" />
+            <text x={pad.l - 6} y={y(t) + 4} fill="var(--chart-muted)" fontSize="11" textAnchor="end">{Math.round(t)}</text>
           </g>
         ))}
-        {min < 0 && <line x1={pad.l} x2={W - pad.r} y1={y(0)} y2={y(0)} stroke="#3a4560" />}
+        {min < 0 && <line x1={pad.l} x2={W - pad.r} y1={y(0)} y2={y(0)} stroke="var(--chart-muted)" />}
         {labels.map((l, i) => (labels.length < 20 || i % 2 === 0) && (
-          <text key={l} x={x(i)} y={H - 8} fill="#8a96ab" fontSize="11" textAnchor="middle">{l}</text>
+          <text key={l} x={x(i)} y={H - 8} fill="var(--chart-muted)" fontSize="11" textAnchor="middle">{l}</text>
         ))}
         {series.map((s) => (
           <polyline key={s.label} fill="none" stroke={s.color} strokeWidth={s.dashed ? 1.5 : 3}

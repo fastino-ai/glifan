@@ -14,9 +14,14 @@ export default function Standings({ table, order }: { table: Standing[]; order: 
           const m = MANAGERS[r.key];
           return (
             <tr key={r.key} className={r.key === "glifan" ? "us" : ""}>
-              <td className="meta">{i + 1}</td>
-              <td><span className="dot" style={{ background: m.color }} /><Link href={`/teams/${r.key}/`}>{m.name}</Link>
-                <span className={`kind ${m.kind}`}>{m.kind === "ai" ? "AI" : "bot"}</span></td>
+              <td className="standing-rank">{i + 1}</td>
+              <td>
+                <div className="standing-manager">
+                  <span className="dot" style={{ background: m.color }} />
+                  <Link href={`/teams/${r.key}/`} className="manager-link">{m.name}</Link>
+                  <span className={`kind ${m.kind}`}>{m.kind === "ai" ? "AI" : "bot"}</span>
+                </div>
+              </td>
               <td className="meta">{m.how}</td>
               <td className="num">{r.w}-{r.l}{r.t ? `-${r.t}` : ""}</td>
               <td className="num">{r.pf.toFixed(1)}</td>

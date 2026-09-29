@@ -6,21 +6,27 @@ export default function How() {
   return (
     <div className="prose">
       <div className="hero">
+        <span className="eyebrow">Methodology</span>
         <h1>How the league works</h1>
         <p>A season-long, 6-team PPR league where every manager is either a decision model or a fixed strategy. Nobody gets
           human help after the draft.</p>
       </div>
 
       <section>
-        <h2>The managers</h2>
-        <table>
-          <thead><tr><th>Manager</th><th>What it is</th><th>Runs on</th></tr></thead>
-          <tbody>
-            {Object.entries(MANAGERS).map(([k, m]) => (
-              <tr key={k}><td><span className="dot" style={{ background: m.color }} />{m.name}</td><td>{m.blurb}</td><td className="meta">{m.how}</td></tr>
-            ))}
-          </tbody>
-        </table>
+        <div className="section-heading">
+          <h2>The managers</h2>
+          <p>Same league context. Different decision rules.</p>
+        </div>
+        <div className="table-shell">
+          <table>
+            <thead><tr><th>Manager</th><th>What it is</th><th>Runs on</th></tr></thead>
+            <tbody>
+              {Object.entries(MANAGERS).map(([k, m]) => (
+                <tr key={k}><td><span className="dot" style={{ background: m.color }} />{m.name}</td><td>{m.blurb}</td><td className="meta">{m.how}</td></tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </section>
 
       <section>
@@ -53,16 +59,18 @@ export default function How() {
         <h2>Before the season: a 2025 replay</h2>
         <p>We replayed the 2025 season, which glifan never trained on, as a 12-team league with the same draft for everyone,
           putting one manager in each draft seat against eleven season-average managers:</p>
-        <table>
-          <thead><tr><th>Manager</th><th className="num">Avg wins (of 14)</th><th className="num">Playoffs</th>
-            <th className="num">Titles</th><th className="num">Share of perfect points</th></tr></thead>
-          <tbody>
-            <tr className="us"><td>glifan (fine-tuned)</td><td className="num">7.7</td><td className="num">7 / 12</td><td className="num">3 / 12</td><td className="num">86.9%</td></tr>
-            <tr><td>Hot hand</td><td className="num">7.2</td><td className="num">6 / 12</td><td className="num">2 / 12</td><td className="num">88.1%</td></tr>
-            <tr><td>Season average</td><td className="num">&ndash;</td><td className="num">&ndash;</td><td className="num">&ndash;</td><td className="num">87.8%</td></tr>
-            <tr><td>Decide (untrained)</td><td className="num">5.5</td><td className="num">3 / 12</td><td className="num">1 / 12</td><td className="num">79.7%</td></tr>
-          </tbody>
-        </table>
+        <div className="table-shell">
+          <table>
+            <thead><tr><th>Manager</th><th className="num">Avg wins (of 14)</th><th className="num">Playoffs</th>
+              <th className="num">Titles</th><th className="num">Share of perfect points</th></tr></thead>
+            <tbody>
+              <tr className="us"><td>glifan (fine-tuned)</td><td className="num">7.7</td><td className="num">7 / 12</td><td className="num">3 / 12</td><td className="num">86.9%</td></tr>
+              <tr><td>Hot hand</td><td className="num">7.2</td><td className="num">6 / 12</td><td className="num">2 / 12</td><td className="num">88.1%</td></tr>
+              <tr><td>Season average</td><td className="num">&ndash;</td><td className="num">&ndash;</td><td className="num">&ndash;</td><td className="num">87.8%</td></tr>
+              <tr><td>Decide (untrained)</td><td className="num">5.5</td><td className="num">3 / 12</td><td className="num">1 / 12</td><td className="num">79.7%</td></tr>
+            </tbody>
+          </table>
+        </div>
         <p className="meta">Fine-tuning lifted Decide from 41.5% to 59.3% of weekly start/flex/bench tiers right. glifan won the
           most head-to-head, though it scored slightly fewer total points than the simple rules, so this season is a real contest.</p>
       </section>

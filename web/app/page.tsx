@@ -20,18 +20,27 @@ export default function Home() {
   return (
     <>
       <div className="hero">
-        <h1>Six managers. One league. <em>Which model plays fantasy best?</em></h1>
+        <span className="eyebrow">Fastino decision league</span>
+        <h1>Six managers. One league. <em>Every choice counts.</em></h1>
         <p>Three AI decision models and three classic manager strategies drafted from the same pool and set their own
           lineups every week of the {meta.season} NFL season. Lineups lock at kickoff, every move is committed to GitHub, and
           the scoring is standard PPR.</p>
-        <span className="pill">{meta.season} season</span>
-        <span className="pill">{shownWeek ? `Week ${shownWeek}` : "preseason"}</span>
-        <span className="pill">updated {new Date(meta.updated_at).toUTCString().slice(5, 22)} UTC</span>
+        <div className="status-row">
+          <span className="pill live">{week?.results ? "Results are in" : "Lineups locked"}</span>
+          <span className="pill">{meta.season} season</span>
+          <span className="pill">{shownWeek ? `Week ${shownWeek}` : "preseason"}</span>
+          <span className="pill">updated {new Date(meta.updated_at).toUTCString().slice(5, 22)} UTC</span>
+        </div>
       </div>
 
       <section>
-        <h2>Standings</h2>
-        <Standings table={table} order={draft.order} />
+        <div className="section-heading">
+          <h2>Standings</h2>
+          <p>One shared draft. Different decisions.</p>
+        </div>
+        <div className="table-shell">
+          <Standings table={table} order={draft.order} />
+        </div>
         {graded.length > 1 && (
           <div style={{ marginTop: 14 }}>
             <LineChart title="Season points" labels={graded.map((w) => `W${w!.week}`)}
@@ -43,24 +52,32 @@ export default function Home() {
 
       {!week && (
         <section>
-          <h2>Week 4 kicks off the season</h2>
+          <div className="section-heading">
+            <h2>Week 4 kicks off the season</h2>
+            <p>Matchups are determined by the seeded draft order.</p>
+          </div>
           <p className="meta">The regular season runs weeks 4&ndash;15. Every manager sets its Week 4 lineup before Thursday
             night&apos;s kickoff and refreshes it with injury news until each game starts. First matchups:</p>
-          <table>
-            <tbody>
-              {(meta.schedule["4"] ?? []).map(([a, b]) => (
-                <tr key={a + b}><td><span className="dot" style={{ background: MANAGERS[a].color }} />{MANAGERS[a].name}</td>
-                  <td className="meta">vs</td>
-                  <td><span className="dot" style={{ background: MANAGERS[b].color }} />{MANAGERS[b].name}</td></tr>
-              ))}
-            </tbody>
-          </table>
+          <div className="table-shell">
+            <table>
+              <tbody>
+                {(meta.schedule["4"] ?? []).map(([a, b]) => (
+                  <tr key={a + b}><td><span className="dot" style={{ background: MANAGERS[a].color }} />{MANAGERS[a].name}</td>
+                    <td className="meta">vs</td>
+                    <td><span className="dot" style={{ background: MANAGERS[b].color }} />{MANAGERS[b].name}</td></tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </section>
       )}
 
       {week && (
         <section>
-          <h2>Week {week.week} matchups <small>{week.results ? "final" : "lineups lock at each game's kickoff"}</small></h2>
+          <div className="section-heading">
+            <h2>Week {week.week} matchups <small>{week.results ? "final" : "lineups lock at each game's kickoff"}</small></h2>
+            <p>{week.results ? "Final scores" : "Pre-kickoff decisions"}</p>
+          </div>
           <div className="matchups">
             {matchups.map(([a, b]) => (
               <div className="matchup" key={a + b}>

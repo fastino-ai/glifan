@@ -17,7 +17,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body>
         <nav className="top">
           <div className="wrap">
-            <Link href="/" className="brand">gli<span>fan</span></Link>
+            <Link href="/" className="brand"><span>glifan</span></Link>
             <Link href="/" className="link">League</Link>
             <Link href="/draft/" className="link">Draft</Link>
             <Link href="/how/" className="link">How it works</Link>
