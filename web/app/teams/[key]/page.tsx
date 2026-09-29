@@ -18,14 +18,20 @@ export default async function TeamPage({ params }: { params: Promise<{ key: stri
   return (
     <>
       <div className="hero">
+        <span className="eyebrow">Manager profile</span>
         <h1><span className="dot big" style={{ background: m.color }} />{m.name}</h1>
         <p>{m.blurb}</p>
-        <span className="pill">{m.kind === "ai" ? "AI manager" : "Strategy bot"}</span>
-        <span className="pill">runs on: {m.how}</span>
+        <div className="status-row">
+          <span className="pill">{m.kind === "ai" ? "AI manager" : "Strategy bot"}</span>
+          <span className="pill">runs on: {m.how}</span>
+        </div>
       </div>
 
       <section>
-        <h2>Roster <small>drafted {draft ? new Date(draft.drafted_at).toDateString() : ""}</small></h2>
+        <div className="section-heading">
+          <h2>Roster <small>drafted {draft ? new Date(draft.drafted_at).toDateString() : ""}</small></h2>
+          <p>Locked after the shared draft.</p>
+        </div>
         <div className="roster">
           {draft?.rosters[key]?.map((p) => (
             <span key={p.player_id} className="pill">{p.pos} · {p.name} <span className="meta">{p.team}</span></span>
@@ -34,7 +40,10 @@ export default async function TeamPage({ params }: { params: Promise<{ key: stri
       </section>
 
       <section>
-        <h2>Weekly lineups</h2>
+        <div className="section-heading">
+          <h2>Weekly lineups</h2>
+          <p>Committed before each kickoff.</p>
+        </div>
         <div className="matchups">
           {weeks.map((w) => w && w.teams[key] && (
             <div key={w.week}>

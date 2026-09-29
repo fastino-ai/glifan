@@ -22,6 +22,7 @@ export default function LineupCard({ teamKey, team, slots, total, won }: {
   return (
     <div className="lineup-card" style={{ borderTopColor: m.color }}>
       <div className="lc-head">
+        <span className="dot" style={{ background: m.color }} />
         <Link href={`/teams/${teamKey}/`} className="lc-name">{m.name}</Link>
         <span className={`kind ${m.kind}`}>{m.kind === "ai" ? "AI" : "bot"}</span>
         {total !== undefined && <b className={`lc-total ${won ? "win" : ""}`}>{total.toFixed(1)}</b>}

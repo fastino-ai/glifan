@@ -9,27 +9,37 @@ export default function DraftPage() {
   return (
     <>
       <div className="hero">
+        <span className="eyebrow">League foundation</span>
         <h1>The draft</h1>
         <p>Every team drafted from the same player pool, in a snake order shuffled with a fixed seed, taking the best available
           player by FantasyPros redraft consensus within roster limits. So the teams are comparable: the competition is who
           sets the better lineup every week.</p>
-        <span className="pill">{new Date(d.drafted_at).toUTCString().slice(5, 22)} UTC</span>
+        <div className="status-row">
+          <span className="pill">seeded snake draft</span>
+          <span className="pill">{new Date(d.drafted_at).toUTCString().slice(5, 22)} UTC</span>
+        </div>
       </div>
-      <section style={{ overflowX: "auto" }}>
-        <table>
-          <thead><tr><th>Round</th>{d.order.map((k) => <th key={k} style={{ color: MANAGERS[k].color }}>{MANAGERS[k].name}</th>)}</tr></thead>
-          <tbody>
-            {Array.from({ length: rounds }, (_, r) => (
-              <tr key={r}>
-                <td className="meta">{r + 1}</td>
-                {d.order.map((k) => {
-                  const p = d.picks.find((x) => x.round === r + 1 && x.manager === k);
-                  return <td key={k}>{p ? <>{p.name} <span className="meta">{p.pos} {p.team}</span></> : ""}</td>;
-                })}
-              </tr>
-            ))}
-          </tbody>
-        </table>
+      <section>
+        <div className="section-heading">
+          <h2>Draft board</h2>
+          <p>{rounds} rounds · one shared pool</p>
+        </div>
+        <div className="table-shell">
+          <table>
+            <thead><tr><th>Round</th>{d.order.map((k) => <th key={k} style={{ color: MANAGERS[k].color }}>{MANAGERS[k].name}</th>)}</tr></thead>
+            <tbody>
+              {Array.from({ length: rounds }, (_, r) => (
+                <tr key={r}>
+                  <td className="meta">{r + 1}</td>
+                  {d.order.map((k) => {
+                    const p = d.picks.find((x) => x.round === r + 1 && x.manager === k);
+                    return <td key={k}>{p ? <>{p.name} <span className="meta">{p.pos} {p.team}</span></> : ""}</td>;
+                  })}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
         <p className="meta">{d.method}</p>
       </section>
     </>
