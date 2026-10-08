@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 5,
- "updated_at": "2026-10-06T12:30:32.375769+00:00",
+ "updated_at": "2026-10-08T21:04:54.312515+00:00",
  "model": "e8f2eeb5-e168-4ffa-a992-f557d7357edd",
  "teams": {
   "glifan": {
@@ -93,7 +93,9 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-06T12:30:32.375769+00:00"
+   "set_at": "2026-10-06T12:30:32.375769+00:00",
+   "error": "425 Client Error: Too Early for url: https://api.fastino.ai/v1/chat/completions",
+   "error_at": "2026-10-08T21:04:54.312515+00:00"
   },
   "jev": {
    "name": "Jev",
@@ -104,46 +106,46 @@
     "00-0039851",
     "00-0037228",
     "00-0039139",
-    "00-0037240",
     "00-0031381",
+    "00-0037240",
     "00-0037744",
     "00-0037239"
    ],
    "scores": {
     "00-0031381": {
-     "score": 0.925,
-     "start": 0.91,
+     "score": 0.94,
+     "start": 0.92,
      "flex": 0.06,
-     "bench": 0.03
+     "bench": 0.02
     },
     "00-0034857": {
-     "score": 0.425,
-     "start": 0.29,
-     "flex": 0.49,
-     "bench": 0.22
+     "score": 0.555,
+     "start": 0.37,
+     "flex": 0.5,
+     "bench": 0.13
     },
     "00-0036322": {
-     "score": 0.41,
-     "start": 0.28,
-     "flex": 0.49,
-     "bench": 0.23
+     "score": 0.3,
+     "start": 0.22,
+     "flex": 0.47,
+     "bench": 0.31
     },
     "00-0037228": {
-     "score": 0.9,
-     "start": 0.82,
-     "flex": 0.17,
+     "score": 0.895,
+     "start": 0.81,
+     "flex": 0.18,
      "bench": 0.01
     },
     "00-0037239": {
-     "score": 0.885,
-     "start": 0.81,
-     "flex": 0.17,
-     "bench": 0.02
+     "score": 0.85,
+     "start": 0.78,
+     "flex": 0.18,
+     "bench": 0.04
     },
     "00-0037240": {
-     "score": 0.935,
-     "start": 0.91,
-     "flex": 0.07,
+     "score": 0.94,
+     "start": 0.92,
+     "flex": 0.06,
      "bench": 0.02
     },
     "00-0037744": {
@@ -153,38 +155,38 @@
      "bench": 0.01
     },
     "00-0038124": {
-     "score": 0.425,
-     "start": 0.31,
+     "score": 0.455,
+     "start": 0.33,
      "flex": 0.46,
-     "bench": 0.23
+     "bench": 0.21
     },
     "00-0039139": {
-     "score": 0.515,
+     "score": 0.505,
      "start": 0.19,
-     "flex": 0.73,
-     "bench": 0.08
+     "flex": 0.72,
+     "bench": 0.09
     },
     "00-0039338": {
-     "score": 0.295,
-     "start": 0.29,
-     "flex": 0.36,
-     "bench": 0.35
+     "score": 0.34,
+     "start": 0.28,
+     "flex": 0.42,
+     "bench": 0.3
     },
     "00-0039851": {
-     "score": 0.68,
-     "start": 0.42,
-     "flex": 0.55,
+     "score": 0.73,
+     "start": 0.52,
+     "flex": 0.45,
      "bench": 0.03
     },
     "00-0040734": {
-     "score": 0.45,
-     "start": 0.18,
-     "flex": 0.68,
-     "bench": 0.14
+     "score": 0.445,
+     "start": 0.21,
+     "flex": 0.63,
+     "bench": 0.16
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-06T12:30:32.375769+00:00"
+   "set_at": "2026-10-08T21:04:54.312515+00:00"
   },
   "decide_base": {
    "name": "GLiNER Decide (untrained)",
@@ -202,80 +204,80 @@
    ],
    "scores": {
     "00-0033106": {
-     "score": 0.5796,
-     "start": 0.5471,
-     "flex": 0.259,
-     "bench": 0.1939
+     "score": 0.5774,
+     "start": 0.544,
+     "flex": 0.2614,
+     "bench": 0.1946
     },
     "00-0035659": {
-     "score": 0.629,
-     "start": 0.5929,
-     "flex": 0.2397,
-     "bench": 0.1674
+     "score": 0.498,
+     "start": 0.4699,
+     "flex": 0.2932,
+     "bench": 0.2369
     },
     "00-0036410": {
-     "score": 0.6506,
-     "start": 0.6088,
-     "flex": 0.2374,
-     "bench": 0.1538
+     "score": 0.5518,
+     "start": 0.5149,
+     "flex": 0.2794,
+     "bench": 0.2057
     },
     "00-0036971": {
-     "score": 0.419,
-     "start": 0.4031,
-     "flex": 0.3143,
-     "bench": 0.2826
+     "score": 0.4179,
+     "start": 0.4038,
+     "flex": 0.3122,
+     "bench": 0.284
     },
     "00-0037238": {
-     "score": 0.7111,
-     "start": 0.6811,
-     "flex": 0.1894,
-     "bench": 0.1295
+     "score": 0.7023,
+     "start": 0.6703,
+     "flex": 0.1967,
+     "bench": 0.1329
     },
     "00-0038542": {
-     "score": 0.5671,
-     "start": 0.5303,
-     "flex": 0.2717,
-     "bench": 0.198
+     "score": 0.5415,
+     "start": 0.5044,
+     "flex": 0.2849,
+     "bench": 0.2107
     },
     "00-0038597": {
-     "score": 0.727,
-     "start": 0.6931,
-     "flex": 0.1874,
-     "bench": 0.1195
+     "score": 0.7299,
+     "start": 0.6957,
+     "flex": 0.1864,
+     "bench": 0.118
     },
     "00-0038933": {
-     "score": 0.4634,
-     "start": 0.414,
-     "flex": 0.3424,
-     "bench": 0.2436
+     "score": 0.4715,
+     "start": 0.4178,
+     "flex": 0.3448,
+     "bench": 0.2374
     },
     "00-0039040": {
-     "score": 0.5204,
-     "start": 0.4788,
-     "flex": 0.3022,
-     "bench": 0.219
+     "score": 0.5155,
+     "start": 0.4752,
+     "flex": 0.3027,
+     "bench": 0.2221
     },
     "00-0039075": {
-     "score": 0.6915,
-     "start": 0.6527,
-     "flex": 0.2124,
-     "bench": 0.1349
+     "score": 0.6907,
+     "start": 0.6525,
+     "flex": 0.212,
+     "bench": 0.1355
     },
     "00-0039361": {
-     "score": 0.4874,
-     "start": 0.4366,
-     "flex": 0.3325,
-     "bench": 0.2309
+     "score": 0.498,
+     "start": 0.4454,
+     "flex": 0.3299,
+     "bench": 0.2247
     },
     "00-0040784": {
-     "score": 0.7082,
-     "start": 0.6718,
-     "flex": 0.2006,
-     "bench": 0.1276
+     "score": 0.7104,
+     "start": 0.6729,
+     "flex": 0.2009,
+     "bench": 0.1261
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-06T12:30:32.375769+00:00"
+   "set_at": "2026-10-08T21:04:54.312515+00:00"
   },
   "experts": {
    "name": "FantasyPros experts",
@@ -293,52 +295,52 @@
    ],
    "scores": {
     "00-0036223": {
-     "score": 21.6,
-     "expert_rank": "RB2"
+     "score": 19.1,
+     "expert_rank": "RB3"
     },
     "00-0036442": {
-     "score": 19.5,
-     "expert_rank": "QB4"
+     "score": 19.6,
+     "expert_rank": "QB5"
     },
     "00-0036912": {
-     "score": 0.0,
-     "expert_rank": null
+     "score": 2.2,
+     "expert_rank": "WR116"
     },
     "00-0037247": {
-     "score": 14.1,
-     "expert_rank": "WR16"
+     "score": 14.7,
+     "expert_rank": "WR15"
     },
     "00-0037840": {
-     "score": 18.7,
+     "score": 18.6,
      "expert_rank": "RB4"
     },
     "00-0038606": {
-     "score": 14.8,
-     "expert_rank": "WR12"
+     "score": 15.0,
+     "expert_rank": "WR14"
     },
     "00-0039337": {
-     "score": 15.5,
-     "expert_rank": "WR9"
+     "score": 15.3,
+     "expert_rank": "WR11"
     },
     "00-0039915": {
-     "score": 10.2,
-     "expert_rank": "WR38"
+     "score": 6.6,
+     "expert_rank": "WR70"
     },
     "00-0040128": {
-     "score": 12.5,
+     "score": 12.6,
      "expert_rank": "TE5"
     },
     "00-0040663": {
-     "score": 10.1,
-     "expert_rank": "TE12"
+     "score": 10.2,
+     "expert_rank": "TE9"
     },
     "00-0040719": {
-     "score": 13.9,
-     "expert_rank": "RB16"
+     "score": 14.6,
+     "expert_rank": "RB15"
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-06T12:30:32.375769+00:00"
+   "set_at": "2026-10-08T21:04:54.312515+00:00"
   },
   "season_avg": {
    "name": "Season-average manager",
@@ -396,7 +398,7 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-06T12:30:32.375769+00:00"
+   "set_at": "2026-10-08T21:04:54.312515+00:00"
   },
   "hot_hand": {
    "name": "Hot-hand manager",
@@ -451,7 +453,7 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-06T12:30:32.375769+00:00"
+   "set_at": "2026-10-08T21:04:54.312515+00:00"
   }
  }
 }
