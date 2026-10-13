@@ -93,7 +93,17 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-12T22:18:18.569033+00:00"
+   "set_at": "2026-10-12T22:18:18.569033+00:00",
+   "points": [
+    12.64,
+    14.2,
+    17.3,
+    12.9,
+    23.4,
+    11.6,
+    0.0
+   ],
+   "optimal_points": 106.64
   },
   "jev": {
    "name": "Jev",
@@ -184,7 +194,17 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-12T22:18:18.569033+00:00"
+   "set_at": "2026-10-12T22:18:18.569033+00:00",
+   "points": [
+    39.46,
+    36.8,
+    4.8,
+    18.7,
+    22.1,
+    21.6,
+    8.6
+   ],
+   "optimal_points": 212.96
   },
   "decide_base": {
    "name": "GLiNER Decide (untrained)",
@@ -275,7 +295,17 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-12T22:18:18.569033+00:00"
+   "set_at": "2026-10-12T22:18:18.569033+00:00",
+   "points": [
+    28.94,
+    7.0,
+    8.0,
+    18.8,
+    37.7,
+    3.7,
+    15.8
+   ],
+   "optimal_points": 148.64
   },
   "experts": {
    "name": "FantasyPros experts",
@@ -338,7 +368,17 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-12T22:18:18.569033+00:00"
+   "set_at": "2026-10-12T22:18:18.569033+00:00",
+   "points": [
+    24.6,
+    11.2,
+    19.6,
+    29.1,
+    30.4,
+    21.4,
+    28.0
+   ],
+   "optimal_points": 164.7
   },
   "season_avg": {
    "name": "Season-average manager",
@@ -396,7 +436,17 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-12T22:18:18.569033+00:00"
+   "set_at": "2026-10-12T22:18:18.569033+00:00",
+   "points": [
+    16.16,
+    21.0,
+    17.3,
+    22.8,
+    2.9,
+    3.9,
+    10.6
+   ],
+   "optimal_points": 98.86
   },
   "hot_hand": {
    "name": "Hot-hand manager",
@@ -451,7 +501,51 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-12T22:18:18.569033+00:00"
+   "set_at": "2026-10-12T22:18:18.569033+00:00",
+   "points": [
+    13.0,
+    22.8,
+    10.7,
+    19.7,
+    8.9,
+    19.8,
+    4.9
+   ],
+   "optimal_points": 136.3
   }
+ },
+ "results": {
+  "totals": {
+   "glifan": 92.04,
+   "jev": 152.06,
+   "decide_base": 119.94,
+   "experts": 164.3,
+   "season_avg": 94.66,
+   "hot_hand": 99.8
+  },
+  "matchups": [
+   {
+    "home": "jev",
+    "away": "glifan",
+    "home_pts": 152.06,
+    "away_pts": 92.04,
+    "winner": "jev"
+   },
+   {
+    "home": "experts",
+    "away": "season_avg",
+    "home_pts": 164.3,
+    "away_pts": 94.66,
+    "winner": "experts"
+   },
+   {
+    "home": "decide_base",
+    "away": "hot_hand",
+    "home_pts": 119.94,
+    "away_pts": 99.8,
+    "winner": "decide_base"
+   }
+  ],
+  "graded_at": "2026-10-13T12:32:43.764337+00:00"
  }
 }

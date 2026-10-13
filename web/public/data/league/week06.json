@@ -1,0 +1,858 @@
+{
+ "season": 2026,
+ "week": 6,
+ "updated_at": "2026-10-13T12:32:25.655725+00:00",
+ "model": "e8f2eeb5-e168-4ffa-a992-f557d7357edd",
+ "teams": {
+  "glifan": {
+   "name": "glifan (GLiNER Decide, fine-tuned)",
+   "kind": "ai",
+   "model": "e8f2eeb5-e168-4ffa-a992-f557d7357edd",
+   "params": "340M",
+   "lineup": [
+    "00-0039918",
+    "00-0033280",
+    "00-0036997",
+    "00-0037740",
+    "00-0039064",
+    "00-0038996",
+    "00-0036973"
+   ],
+   "scores": {
+    "00-0033077": {
+     "score": 0.1498,
+     "start": 0.3086,
+     "flex": 0.1869,
+     "bench": 0.5045
+    },
+    "00-0033280": {
+     "score": 0.8078,
+     "start": 0.8144,
+     "flex": 0.0863,
+     "bench": 0.0994
+    },
+    "00-0034844": {
+     "score": -0.1622,
+     "start": 0.1531,
+     "flex": 0.1082,
+     "bench": 0.7387
+    },
+    "00-0035676": {
+     "score": -0.1463,
+     "start": 0.1587,
+     "flex": 0.1156,
+     "bench": 0.7257
+    },
+    "00-0036973": {
+     "score": 0.6383,
+     "start": 0.6501,
+     "flex": 0.1631,
+     "bench": 0.1868
+    },
+    "00-0036997": {
+     "score": 0.8038,
+     "start": 0.8085,
+     "flex": 0.091,
+     "bench": 0.1005
+    },
+    "00-0037740": {
+     "score": 0.7865,
+     "start": 0.7957,
+     "flex": 0.0929,
+     "bench": 0.1114
+    },
+    "00-0038120": {
+     "score": 0.3767,
+     "start": 0.4443,
+     "flex": 0.2102,
+     "bench": 0.3455
+    },
+    "00-0038996": {
+     "score": 0.6454,
+     "start": 0.6591,
+     "flex": 0.1567,
+     "bench": 0.1842
+    },
+    "00-0039064": {
+     "score": 0.5899,
+     "start": 0.603,
+     "flex": 0.1855,
+     "bench": 0.2116
+    },
+    "00-0039067": {
+     "score": 0.272,
+     "start": 0.369,
+     "flex": 0.2185,
+     "bench": 0.4125
+    },
+    "00-0039918": {
+     "score": 0.3049,
+     "start": 0.4035,
+     "flex": 0.1996,
+     "bench": 0.3968
+    }
+   },
+   "fill_ins": {},
+   "set_at": "2026-10-13T12:32:25.655725+00:00",
+   "players": [
+    {
+     "player_id": "00-0039918",
+     "name": "Caleb Williams",
+     "pos": "QB",
+     "team": "CHI",
+     "ecr": 84.17,
+     "score": 0.3049,
+     "start": 0.4035,
+     "flex": 0.1996,
+     "bench": 0.3968
+    },
+    {
+     "player_id": "00-0033280",
+     "name": "Christian McCaffrey",
+     "pos": "RB",
+     "team": "SF",
+     "ecr": 9.33,
+     "score": 0.8078,
+     "start": 0.8144,
+     "flex": 0.0863,
+     "bench": 0.0994
+    },
+    {
+     "player_id": "00-0036997",
+     "name": "Javonte Williams",
+     "pos": "RB",
+     "team": "DAL",
+     "ecr": 29.67,
+     "score": 0.8038,
+     "start": 0.8085,
+     "flex": 0.091,
+     "bench": 0.1005
+    },
+    {
+     "player_id": "00-0037740",
+     "name": "Garrett Wilson",
+     "pos": "WR",
+     "team": "NYJ",
+     "ecr": 33.17,
+     "score": 0.7865,
+     "start": 0.7957,
+     "flex": 0.0929,
+     "bench": 0.1114
+    },
+    {
+     "player_id": "00-0039064",
+     "name": "Zay Flowers",
+     "pos": "WR",
+     "team": "BAL",
+     "ecr": 21.83,
+     "score": 0.5899,
+     "start": 0.603,
+     "flex": 0.1855,
+     "bench": 0.2116
+    },
+    {
+     "player_id": "00-0038996",
+     "name": "Tucker Kraft",
+     "pos": "TE",
+     "team": "GB",
+     "ecr": 96.83,
+     "score": 0.6454,
+     "start": 0.6591,
+     "flex": 0.1567,
+     "bench": 0.1842
+    },
+    {
+     "player_id": "00-0036973",
+     "name": "Travis Etienne Jr.",
+     "pos": "RB",
+     "team": "NO",
+     "ecr": 64.0,
+     "score": 0.6383,
+     "start": 0.6501,
+     "flex": 0.1631,
+     "bench": 0.1868
+    }
+   ]
+  },
+  "jev": {
+   "name": "Jev",
+   "kind": "ai",
+   "model": "typesafe-ai/jev",
+   "params": "undisclosed",
+   "lineup": [
+    "00-0034857",
+    "00-0036555",
+    "00-0037228",
+    "00-0031381",
+    "00-0038124",
+    "00-0039338",
+    "00-0037239"
+   ],
+   "scores": {
+    "00-0031381": {
+     "score": 0.995,
+     "start": 0.99,
+     "flex": 0.01,
+     "bench": 0.0
+    },
+    "00-0034857": {
+     "score": 0.965,
+     "start": 0.97,
+     "flex": 0.01,
+     "bench": 0.02
+    },
+    "00-0036555": {
+     "score": 0.9,
+     "start": 0.82,
+     "flex": 0.17,
+     "bench": 0.01
+    },
+    "00-0037228": {
+     "score": 0.65,
+     "start": 0.34,
+     "flex": 0.64,
+     "bench": 0.02
+    },
+    "00-0037239": {
+     "score": 0.745,
+     "start": 0.57,
+     "flex": 0.39,
+     "bench": 0.04
+    },
+    "00-0037744": {
+     "score": 0.495,
+     "start": 0.37,
+     "flex": 0.44,
+     "bench": 0.19
+    },
+    "00-0038124": {
+     "score": 0.955,
+     "start": 0.93,
+     "flex": 0.06,
+     "bench": 0.01
+    },
+    "00-0039338": {
+     "score": 0.68,
+     "start": 0.38,
+     "flex": 0.61,
+     "bench": 0.01
+    },
+    "00-0039851": {
+     "score": 0.87,
+     "start": 0.82,
+     "flex": 0.14,
+     "bench": 0.04
+    },
+    "00-0040734": {
+     "score": 0.205,
+     "start": 0.09,
+     "flex": 0.57,
+     "bench": 0.34
+    }
+   },
+   "fill_ins": {},
+   "set_at": "2026-10-13T12:32:25.655725+00:00",
+   "players": [
+    {
+     "player_id": "00-0034857",
+     "name": "Josh Allen",
+     "pos": "QB",
+     "team": "BUF",
+     "ecr": 25.0,
+     "score": 0.965,
+     "start": 0.97,
+     "flex": 0.01,
+     "bench": 0.02
+    },
+    {
+     "player_id": "00-0036555",
+     "name": "Chuba Hubbard",
+     "pos": "RB",
+     "team": "CAR",
+     "ecr": 97.5,
+     "score": 0.9,
+     "start": 0.82,
+     "flex": 0.17,
+     "bench": 0.01
+    },
+    {
+     "player_id": "00-0037228",
+     "name": "Jaylen Warren",
+     "pos": "RB",
+     "team": "PIT",
+     "ecr": 84.67,
+     "score": 0.65,
+     "start": 0.34,
+     "flex": 0.64,
+     "bench": 0.02
+    },
+    {
+     "player_id": "00-0031381",
+     "name": "Davante Adams",
+     "pos": "WR",
+     "team": "LA",
+     "ecr": 49.5,
+     "score": 0.995,
+     "start": 0.99,
+     "flex": 0.01,
+     "bench": 0.0
+    },
+    {
+     "player_id": "00-0038124",
+     "name": "Christian Watson",
+     "pos": "WR",
+     "team": "GB",
+     "ecr": 36.83,
+     "score": 0.955,
+     "start": 0.93,
+     "flex": 0.06,
+     "bench": 0.01
+    },
+    {
+     "player_id": "00-0039338",
+     "name": "Brock Bowers",
+     "pos": "TE",
+     "team": "LV",
+     "ecr": 36.5,
+     "score": 0.68,
+     "start": 0.38,
+     "flex": 0.61,
+     "bench": 0.01
+    },
+    {
+     "player_id": "00-0037239",
+     "name": "Chris Olave",
+     "pos": "WR",
+     "team": "NO",
+     "ecr": 12.0,
+     "score": 0.745,
+     "start": 0.57,
+     "flex": 0.39,
+     "bench": 0.04
+    }
+   ]
+  },
+  "decide_base": {
+   "name": "GLiNER Decide (untrained)",
+   "kind": "ai",
+   "model": "fastino/GLiNER-2.5-Decide",
+   "params": "340M",
+   "lineup": [
+    "00-0036971",
+    "00-0039361",
+    "00-0038542",
+    "00-0039075",
+    "00-0040124",
+    "00-0038933",
+    "00-0040784"
+   ],
+   "scores": {
+    "00-0035659": {
+     "score": 0.5169,
+     "start": 0.4646,
+     "flex": 0.32,
+     "bench": 0.2154
+    },
+    "00-0036971": {
+     "score": 0.4142,
+     "start": 0.3973,
+     "flex": 0.3182,
+     "bench": 0.2845
+    },
+    "00-0037238": {
+     "score": 0.5336,
+     "start": 0.492,
+     "flex": 0.2956,
+     "bench": 0.2124
+    },
+    "00-0038542": {
+     "score": 0.5689,
+     "start": 0.5291,
+     "flex": 0.2753,
+     "bench": 0.1956
+    },
+    "00-0038933": {
+     "score": 0.5438,
+     "start": 0.4998,
+     "flex": 0.2941,
+     "bench": 0.2061
+    },
+    "00-0039075": {
+     "score": 0.7378,
+     "start": 0.7066,
+     "flex": 0.1779,
+     "bench": 0.1155
+    },
+    "00-0039361": {
+     "score": 0.654,
+     "start": 0.6212,
+     "flex": 0.2223,
+     "bench": 0.1565
+    },
+    "00-0040124": {
+     "score": 0.6924,
+     "start": 0.6524,
+     "flex": 0.2138,
+     "bench": 0.1338
+    },
+    "00-0040784": {
+     "score": 0.5426,
+     "start": 0.5033,
+     "flex": 0.2877,
+     "bench": 0.209
+    }
+   },
+   "fill_ins": {},
+   "set_at": "2026-10-13T12:32:25.655725+00:00",
+   "players": [
+    {
+     "player_id": "00-0036971",
+     "name": "Trevor Lawrence",
+     "pos": "QB",
+     "team": "JAX",
+     "ecr": 51.5,
+     "score": 0.4142,
+     "start": 0.3973,
+     "flex": 0.3182,
+     "bench": 0.2845
+    },
+    {
+     "player_id": "00-0039361",
+     "name": "Bucky Irving",
+     "pos": "RB",
+     "team": "TB",
+     "ecr": 48.0,
+     "score": 0.654,
+     "start": 0.6212,
+     "flex": 0.2223,
+     "bench": 0.1565
+    },
+    {
+     "player_id": "00-0038542",
+     "name": "Bijan Robinson",
+     "pos": "RB",
+     "team": "ATL",
+     "ecr": 3.0,
+     "score": 0.5689,
+     "start": 0.5291,
+     "flex": 0.2753,
+     "bench": 0.1956
+    },
+    {
+     "player_id": "00-0039075",
+     "name": "Puka Nacua",
+     "pos": "WR",
+     "team": "LA",
+     "ecr": 10.17,
+     "score": 0.7378,
+     "start": 0.7066,
+     "flex": 0.1779,
+     "bench": 0.1155
+    },
+    {
+     "player_id": "00-0040124",
+     "name": "Tetairoa McMillan",
+     "pos": "WR",
+     "team": "CAR",
+     "ecr": 38.17,
+     "score": 0.6924,
+     "start": 0.6524,
+     "flex": 0.2138,
+     "bench": 0.1338
+    },
+    {
+     "player_id": "00-0038933",
+     "name": "Dalton Kincaid",
+     "pos": "TE",
+     "team": "BUF",
+     "ecr": 70.17,
+     "score": 0.5438,
+     "start": 0.4998,
+     "flex": 0.2941,
+     "bench": 0.2061
+    },
+    {
+     "player_id": "00-0040784",
+     "name": "Quinshon Judkins",
+     "pos": "RB",
+     "team": "CLE",
+     "ecr": 81.5,
+     "score": 0.5426,
+     "start": 0.5033,
+     "flex": 0.2877,
+     "bench": 0.209
+    }
+   ]
+  },
+  "experts": {
+   "name": "FantasyPros experts",
+   "kind": "bot",
+   "model": "weekly expert consensus",
+   "params": "humans",
+   "lineup": [
+    "00-0033873",
+    "00-0036223",
+    "00-0037840",
+    "00-0037247",
+    "00-0038606",
+    "00-0040128",
+    "00-0039337"
+   ],
+   "scores": {
+    "00-0033873": {
+     "score": 0.0,
+     "expert_rank": null
+    },
+    "00-0036223": {
+     "score": 19.3,
+     "expert_rank": "RB3"
+    },
+    "00-0036912": {
+     "score": 0.0,
+     "expert_rank": null
+    },
+    "00-0037247": {
+     "score": 14.7,
+     "expert_rank": "WR14"
+    },
+    "00-0037840": {
+     "score": 18.4,
+     "expert_rank": "RB4"
+    },
+    "00-0038134": {
+     "score": 0.0,
+     "expert_rank": null
+    },
+    "00-0038606": {
+     "score": 14.6,
+     "expert_rank": "WR15"
+    },
+    "00-0039337": {
+     "score": 13.7,
+     "expert_rank": "WR17"
+    },
+    "00-0039915": {
+     "score": 2.1,
+     "expert_rank": "WR113"
+    },
+    "00-0040128": {
+     "score": 12.8,
+     "expert_rank": "TE5"
+    },
+    "00-0040663": {
+     "score": 11.1,
+     "expert_rank": "TE8"
+    },
+    "00-0040719": {
+     "score": 13.6,
+     "expert_rank": "RB16"
+    }
+   },
+   "fill_ins": {},
+   "set_at": "2026-10-13T12:32:25.655725+00:00",
+   "players": [
+    {
+     "player_id": "00-0033873",
+     "name": "Patrick Mahomes II",
+     "pos": "QB",
+     "team": "KC",
+     "ecr": 79.0,
+     "score": 0.0,
+     "expert_rank": null
+    },
+    {
+     "player_id": "00-0036223",
+     "name": "Jonathan Taylor",
+     "pos": "RB",
+     "team": "IND",
+     "ecr": 7.0,
+     "score": 19.3,
+     "expert_rank": "RB3"
+    },
+    {
+     "player_id": "00-0037840",
+     "name": "Kyren Williams",
+     "pos": "RB",
+     "team": "LA",
+     "ecr": 46.67,
+     "score": 18.4,
+     "expert_rank": "RB4"
+    },
+    {
+     "player_id": "00-0037247",
+     "name": "George Pickens",
+     "pos": "WR",
+     "team": "DAL",
+     "ecr": 19.83,
+     "score": 14.7,
+     "expert_rank": "WR14"
+    },
+    {
+     "player_id": "00-0038606",
+     "name": "Parker Washington",
+     "pos": "WR",
+     "team": "JAX",
+     "ecr": 29.67,
+     "score": 14.6,
+     "expert_rank": "WR15"
+    },
+    {
+     "player_id": "00-0040128",
+     "name": "Tyler Warren",
+     "pos": "TE",
+     "team": "IND",
+     "ecr": 72.33,
+     "score": 12.8,
+     "expert_rank": "TE5"
+    },
+    {
+     "player_id": "00-0039337",
+     "name": "Malik Nabers",
+     "pos": "WR",
+     "team": "NYG",
+     "ecr": 30.0,
+     "score": 13.7,
+     "expert_rank": "WR17"
+    }
+   ]
+  },
+  "season_avg": {
+   "name": "Season-average manager",
+   "kind": "bot",
+   "model": "season PPR average",
+   "params": "0",
+   "lineup": [
+    "00-0037834",
+    "00-0032764",
+    "00-0036275",
+    "00-0038543",
+    "00-0036358",
+    "00-0040126",
+    "00-0036554"
+   ],
+   "scores": {
+    "00-0032764": {
+     "score": 22.36
+    },
+    "00-0034827": {
+     "score": 9.075
+    },
+    "00-0036275": {
+     "score": 16.16
+    },
+    "00-0036355": {
+     "score": 10.736
+    },
+    "00-0036358": {
+     "score": 23.02
+    },
+    "00-0036554": {
+     "score": 20.866666666666667
+    },
+    "00-0036613": {
+     "score": 9.74
+    },
+    "00-0037834": {
+     "score": 23.328
+    },
+    "00-0038543": {
+     "score": 27.892000000000003
+    },
+    "00-0040126": {
+     "score": 4.8
+    },
+    "00-0040715": {
+     "score": 10.26
+    },
+    "00-0041027": {
+     "score": 10.22
+    },
+    "00-0041512": {
+     "score": 4.666666666666667
+    }
+   },
+   "fill_ins": {},
+   "set_at": "2026-10-13T12:32:25.655725+00:00",
+   "players": [
+    {
+     "player_id": "00-0037834",
+     "name": "Brock Purdy",
+     "pos": "QB",
+     "team": "SF",
+     "ecr": 65.17,
+     "score": 23.328
+    },
+    {
+     "player_id": "00-0032764",
+     "name": "Derrick Henry",
+     "pos": "RB",
+     "team": "BAL",
+     "ecr": 18.83,
+     "score": 22.36
+    },
+    {
+     "player_id": "00-0036275",
+     "name": "D'Andre Swift",
+     "pos": "RB",
+     "team": "CHI",
+     "ecr": 33.83,
+     "score": 16.16
+    },
+    {
+     "player_id": "00-0038543",
+     "name": "Jaxon Smith-Njigba",
+     "pos": "WR",
+     "team": "SEA",
+     "ecr": 5.0,
+     "score": 27.892000000000003
+    },
+    {
+     "player_id": "00-0036358",
+     "name": "CeeDee Lamb",
+     "pos": "WR",
+     "team": "DAL",
+     "ecr": 9.67,
+     "score": 23.02
+    },
+    {
+     "player_id": "00-0040126",
+     "name": "Colston Loveland",
+     "pos": "TE",
+     "team": "CHI",
+     "ecr": 71.17,
+     "score": 4.8
+    },
+    {
+     "player_id": "00-0036554",
+     "name": "Nico Collins",
+     "pos": "WR",
+     "team": "HOU",
+     "ecr": 22.0,
+     "score": 20.866666666666667
+    }
+   ]
+  },
+  "hot_hand": {
+   "name": "Hot-hand manager",
+   "kind": "bot",
+   "model": "last-3-games PPR average",
+   "params": "0",
+   "lineup": [
+    "00-0034796",
+    "00-0037248",
+    "00-0036875",
+    "00-0039491",
+    "00-0031408",
+    "00-0033288",
+    "00-0040122"
+   ],
+   "scores": {
+    "00-0031408": {
+     "score": 17.1
+    },
+    "00-0034796": {
+     "score": 19.66
+    },
+    "00-0035685": {
+     "score": 4.066666666666669
+    },
+    "00-0036389": {
+     "score": 13.046666666666663
+    },
+    "00-0036875": {
+     "score": 14.233333333333333
+    },
+    "00-0037248": {
+     "score": 19.5
+    },
+    "00-0039491": {
+     "score": 17.399999999999995
+    },
+    "00-0040122": {
+     "score": 13.866666666666667
+    },
+    "00-0040129": {
+     "score": 10.566666666666666
+    },
+    "00-0040666": {
+     "score": 7.933333333333334
+    },
+    "00-0040735": {
+     "score": 13.366666666666664
+    },
+    "00-0033288": {
+     "score": 16.866666666666667
+    }
+   },
+   "fill_ins": {
+    "00-0033288": {
+     "player_id": "00-0033288",
+     "name": "George Kittle",
+     "pos": "TE",
+     "team": "SF",
+     "slot": 5
+    }
+   },
+   "set_at": "2026-10-13T12:32:25.655725+00:00",
+   "players": [
+    {
+     "player_id": "00-0034796",
+     "name": "Lamar Jackson",
+     "pos": "QB",
+     "team": "BAL",
+     "ecr": 27.5,
+     "score": 19.66
+    },
+    {
+     "player_id": "00-0037248",
+     "name": "James Cook III",
+     "pos": "RB",
+     "team": "BUF",
+     "ecr": 9.83,
+     "score": 19.5
+    },
+    {
+     "player_id": "00-0036875",
+     "name": "Rhamondre Stevenson",
+     "pos": "RB",
+     "team": "NE",
+     "ecr": 80.83,
+     "score": 14.233333333333333
+    },
+    {
+     "player_id": "00-0039491",
+     "name": "Jalen Coker",
+     "pos": "WR",
+     "team": "CAR",
+     "ecr": 62.67,
+     "score": 17.399999999999995
+    },
+    {
+     "player_id": "00-0031408",
+     "name": "Mike Evans",
+     "pos": "WR",
+     "team": "SF",
+     "ecr": 46.67,
+     "score": 17.1
+    },
+    {
+     "player_id": "00-0033288",
+     "name": "George Kittle",
+     "pos": "TE",
+     "team": "SF",
+     "slot": 5,
+     "fill_in": true,
+     "score": 16.866666666666667
+    },
+    {
+     "player_id": "00-0040122",
+     "name": "Ashton Jeanty",
+     "pos": "RB",
+     "team": "LV",
+     "ecr": 15.67,
+     "score": 13.866666666666667
+    }
+   ]
+  }
+ }
+}
