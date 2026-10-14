@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 6,
- "updated_at": "2026-10-13T12:32:25.655725+00:00",
+ "updated_at": "2026-10-14T12:29:28.165329+00:00",
  "model": "e8f2eeb5-e168-4ffa-a992-f557d7357edd",
  "teams": {
   "glifan": {
@@ -93,7 +93,9 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-13T12:32:25.655725+00:00"
+   "set_at": "2026-10-13T12:32:25.655725+00:00",
+   "error": "425 Client Error: Too Early for url: https://api.fastino.ai/v1/chat/completions",
+   "error_at": "2026-10-14T12:29:28.165329+00:00"
   },
   "jev": {
    "name": "Jev",
@@ -123,28 +125,28 @@
      "bench": 0.02
     },
     "00-0036555": {
-     "score": 0.9,
-     "start": 0.82,
-     "flex": 0.17,
+     "score": 0.915,
+     "start": 0.85,
+     "flex": 0.14,
      "bench": 0.01
     },
     "00-0037228": {
-     "score": 0.65,
-     "start": 0.34,
-     "flex": 0.64,
+     "score": 0.645,
+     "start": 0.33,
+     "flex": 0.65,
      "bench": 0.02
     },
     "00-0037239": {
-     "score": 0.745,
-     "start": 0.57,
+     "score": 0.73,
+     "start": 0.56,
      "flex": 0.39,
-     "bench": 0.04
+     "bench": 0.05
     },
     "00-0037744": {
-     "score": 0.495,
-     "start": 0.37,
-     "flex": 0.44,
-     "bench": 0.19
+     "score": 0.51,
+     "start": 0.34,
+     "flex": 0.5,
+     "bench": 0.16
     },
     "00-0038124": {
      "score": 0.955,
@@ -153,26 +155,26 @@
      "bench": 0.01
     },
     "00-0039338": {
-     "score": 0.68,
-     "start": 0.38,
-     "flex": 0.61,
+     "score": 0.625,
+     "start": 0.27,
+     "flex": 0.72,
      "bench": 0.01
     },
     "00-0039851": {
-     "score": 0.87,
-     "start": 0.82,
-     "flex": 0.14,
-     "bench": 0.04
+     "score": 0.8889,
+     "start": 0.8182,
+     "flex": 0.1616,
+     "bench": 0.0202
     },
     "00-0040734": {
-     "score": 0.205,
-     "start": 0.09,
-     "flex": 0.57,
-     "bench": 0.34
+     "score": 0.13,
+     "start": 0.08,
+     "flex": 0.51,
+     "bench": 0.41
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-13T12:32:25.655725+00:00"
+   "set_at": "2026-10-14T12:29:28.165329+00:00"
   },
   "decide_base": {
    "name": "GLiNER Decide (untrained)",
@@ -190,62 +192,62 @@
    ],
    "scores": {
     "00-0035659": {
-     "score": 0.5169,
-     "start": 0.4646,
-     "flex": 0.32,
-     "bench": 0.2154
+     "score": 0.5156,
+     "start": 0.4631,
+     "flex": 0.3209,
+     "bench": 0.216
     },
     "00-0036971": {
-     "score": 0.4142,
-     "start": 0.3973,
-     "flex": 0.3182,
-     "bench": 0.2845
+     "score": 0.4116,
+     "start": 0.3946,
+     "flex": 0.3196,
+     "bench": 0.2858
     },
     "00-0037238": {
-     "score": 0.5336,
-     "start": 0.492,
-     "flex": 0.2956,
-     "bench": 0.2124
+     "score": 0.5325,
+     "start": 0.4908,
+     "flex": 0.2963,
+     "bench": 0.2129
     },
     "00-0038542": {
-     "score": 0.5689,
-     "start": 0.5291,
-     "flex": 0.2753,
-     "bench": 0.1956
+     "score": 0.5698,
+     "start": 0.5285,
+     "flex": 0.2771,
+     "bench": 0.1944
     },
     "00-0038933": {
-     "score": 0.5438,
-     "start": 0.4998,
-     "flex": 0.2941,
-     "bench": 0.2061
+     "score": 0.5358,
+     "start": 0.4937,
+     "flex": 0.2953,
+     "bench": 0.211
     },
     "00-0039075": {
-     "score": 0.7378,
-     "start": 0.7066,
-     "flex": 0.1779,
-     "bench": 0.1155
+     "score": 0.7342,
+     "start": 0.7022,
+     "flex": 0.181,
+     "bench": 0.1168
     },
     "00-0039361": {
-     "score": 0.654,
-     "start": 0.6212,
-     "flex": 0.2223,
-     "bench": 0.1565
+     "score": 0.6553,
+     "start": 0.6231,
+     "flex": 0.2206,
+     "bench": 0.1563
     },
     "00-0040124": {
-     "score": 0.6924,
-     "start": 0.6524,
-     "flex": 0.2138,
-     "bench": 0.1338
+     "score": 0.705,
+     "start": 0.6681,
+     "flex": 0.2028,
+     "bench": 0.1291
     },
     "00-0040784": {
-     "score": 0.5426,
-     "start": 0.5033,
-     "flex": 0.2877,
-     "bench": 0.209
+     "score": 0.5476,
+     "start": 0.5078,
+     "flex": 0.2859,
+     "bench": 0.2063
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-13T12:32:25.655725+00:00"
+   "set_at": "2026-10-14T12:29:28.165329+00:00"
   },
   "experts": {
    "name": "FantasyPros experts",
@@ -254,65 +256,65 @@
    "params": "humans",
    "lineup": [
     "00-0033873",
+    "00-0038134",
     "00-0036223",
-    "00-0037840",
-    "00-0037247",
+    "00-0039337",
     "00-0038606",
     "00-0040128",
-    "00-0039337"
+    "00-0037840"
    ],
    "scores": {
     "00-0033873": {
-     "score": 0.0,
-     "expert_rank": null
+     "score": 17.7,
+     "expert_rank": "QB10"
     },
     "00-0036223": {
-     "score": 19.3,
+     "score": 21.0,
      "expert_rank": "RB3"
     },
     "00-0036912": {
-     "score": 0.0,
-     "expert_rank": null
+     "score": 6.4,
+     "expert_rank": "WR63"
     },
     "00-0037247": {
-     "score": 14.7,
-     "expert_rank": "WR14"
+     "score": 14.5,
+     "expert_rank": "WR15"
     },
     "00-0037840": {
-     "score": 18.4,
+     "score": 20.2,
      "expert_rank": "RB4"
     },
     "00-0038134": {
-     "score": 0.0,
-     "expert_rank": null
+     "score": 22.8,
+     "expert_rank": "RB1"
     },
     "00-0038606": {
-     "score": 14.6,
-     "expert_rank": "WR15"
+     "score": 15.9,
+     "expert_rank": "WR11"
     },
     "00-0039337": {
-     "score": 13.7,
-     "expert_rank": "WR17"
+     "score": 16.8,
+     "expert_rank": "WR8"
     },
     "00-0039915": {
-     "score": 2.1,
-     "expert_rank": "WR113"
+     "score": 6.5,
+     "expert_rank": "WR62"
     },
     "00-0040128": {
-     "score": 12.8,
+     "score": 14.4,
      "expert_rank": "TE5"
     },
     "00-0040663": {
-     "score": 11.1,
-     "expert_rank": "TE8"
+     "score": 10.9,
+     "expert_rank": "TE10"
     },
     "00-0040719": {
-     "score": 13.6,
-     "expert_rank": "RB16"
+     "score": 12.4,
+     "expert_rank": "RB17"
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-13T12:32:25.655725+00:00"
+   "set_at": "2026-10-14T12:29:28.165329+00:00"
   },
   "season_avg": {
    "name": "Season-average manager",
@@ -370,7 +372,7 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-13T12:32:25.655725+00:00"
+   "set_at": "2026-10-14T12:29:28.165329+00:00"
   },
   "hot_hand": {
    "name": "Hot-hand manager",
@@ -433,7 +435,7 @@
      "slot": 5
     }
    },
-   "set_at": "2026-10-13T12:32:25.655725+00:00"
+   "set_at": "2026-10-14T12:29:28.165329+00:00"
   }
  }
 }
