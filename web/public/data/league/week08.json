@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 8,
- "updated_at": "2026-10-27T12:29:21.890189+00:00",
+ "updated_at": "2026-10-28T12:21:30.353272+00:00",
  "model": "e8f2eeb5-e168-4ffa-a992-f557d7357edd",
  "teams": {
   "glifan": {
@@ -88,6 +88,8 @@
    },
    "fill_ins": {},
    "set_at": "2026-10-27T12:29:21.890189+00:00",
+   "error": "401 Client Error: Unauthorized for url: https://api.fastino.ai/v1/chat/completions",
+   "error_at": "2026-10-28T12:21:30.353272+00:00",
    "players": [
     {
      "player_id": "00-0039918",
@@ -184,80 +186,80 @@
    ],
    "scores": {
     "00-0031381": {
-     "score": 0.6,
-     "start": 0.44,
-     "flex": 0.44,
+     "score": 0.59,
+     "start": 0.42,
+     "flex": 0.46,
      "bench": 0.12
     },
     "00-0034857": {
-     "score": 0.425,
-     "start": 0.25,
-     "flex": 0.55,
-     "bench": 0.2
+     "score": 0.475,
+     "start": 0.29,
+     "flex": 0.54,
+     "bench": 0.17
     },
     "00-0036322": {
-     "score": 0.87,
-     "start": 0.82,
-     "flex": 0.14,
-     "bench": 0.04
+     "score": 0.85,
+     "start": 0.8,
+     "flex": 0.15,
+     "bench": 0.05
     },
     "00-0036555": {
-     "score": 0.86,
-     "start": 0.78,
-     "flex": 0.19,
+     "score": 0.87,
+     "start": 0.8,
+     "flex": 0.17,
      "bench": 0.03
     },
     "00-0037228": {
-     "score": 0.84,
-     "start": 0.72,
-     "flex": 0.26,
+     "score": 0.845,
+     "start": 0.73,
+     "flex": 0.25,
      "bench": 0.02
     },
     "00-0037240": {
-     "score": 0.8,
-     "start": 0.72,
-     "flex": 0.22,
-     "bench": 0.06
+     "score": 0.835,
+     "start": 0.77,
+     "flex": 0.18,
+     "bench": 0.05
     },
     "00-0037744": {
-     "score": 0.755,
-     "start": 0.55,
-     "flex": 0.43,
-     "bench": 0.02
+     "score": 0.73,
+     "start": 0.52,
+     "flex": 0.45,
+     "bench": 0.03
     },
     "00-0038124": {
-     "score": 0.75,
-     "start": 0.62,
-     "flex": 0.32,
+     "score": 0.765,
+     "start": 0.65,
+     "flex": 0.29,
      "bench": 0.06
     },
     "00-0039139": {
      "score": 0.38,
-     "start": 0.18,
-     "flex": 0.61,
-     "bench": 0.21
+     "start": 0.16,
+     "flex": 0.64,
+     "bench": 0.2
     },
     "00-0039338": {
-     "score": 0.475,
-     "start": 0.25,
-     "flex": 0.6,
-     "bench": 0.15
+     "score": 0.51,
+     "start": 0.3,
+     "flex": 0.56,
+     "bench": 0.14
     },
     "00-0039851": {
-     "score": 0.945,
-     "start": 0.93,
-     "flex": 0.05,
+     "score": 0.935,
+     "start": 0.91,
+     "flex": 0.07,
      "bench": 0.02
     },
     "00-0040734": {
-     "score": -0.005,
-     "start": 0.13,
+     "score": -0.02,
+     "start": 0.12,
      "flex": 0.3,
-     "bench": 0.57
+     "bench": 0.58
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-27T12:29:21.890189+00:00",
+   "set_at": "2026-10-28T12:21:30.353272+00:00",
    "players": [
     {
      "player_id": "00-0039851",
@@ -265,9 +267,9 @@
      "pos": "QB",
      "team": "NE",
      "ecr": 51.17,
-     "score": 0.945,
-     "start": 0.93,
-     "flex": 0.05,
+     "score": 0.935,
+     "start": 0.91,
+     "flex": 0.07,
      "bench": 0.02
     },
     {
@@ -276,9 +278,9 @@
      "pos": "RB",
      "team": "CAR",
      "ecr": 97.5,
-     "score": 0.86,
-     "start": 0.78,
-     "flex": 0.19,
+     "score": 0.87,
+     "start": 0.8,
+     "flex": 0.17,
      "bench": 0.03
     },
     {
@@ -287,9 +289,9 @@
      "pos": "RB",
      "team": "PIT",
      "ecr": 84.67,
-     "score": 0.84,
-     "start": 0.72,
-     "flex": 0.26,
+     "score": 0.845,
+     "start": 0.73,
+     "flex": 0.25,
      "bench": 0.02
     },
     {
@@ -298,10 +300,10 @@
      "pos": "WR",
      "team": "MIN",
      "ecr": 12.0,
-     "score": 0.87,
-     "start": 0.82,
-     "flex": 0.14,
-     "bench": 0.04
+     "score": 0.85,
+     "start": 0.8,
+     "flex": 0.15,
+     "bench": 0.05
     },
     {
      "player_id": "00-0037240",
@@ -309,10 +311,10 @@
      "pos": "WR",
      "team": "DET",
      "ecr": 59.0,
-     "score": 0.8,
-     "start": 0.72,
-     "flex": 0.22,
-     "bench": 0.06
+     "score": 0.835,
+     "start": 0.77,
+     "flex": 0.18,
+     "bench": 0.05
     },
     {
      "player_id": "00-0037744",
@@ -320,10 +322,10 @@
      "pos": "TE",
      "team": "ARI",
      "ecr": 26.33,
-     "score": 0.755,
-     "start": 0.55,
-     "flex": 0.43,
-     "bench": 0.02
+     "score": 0.73,
+     "start": 0.52,
+     "flex": 0.45,
+     "bench": 0.03
     },
     {
      "player_id": "00-0038124",
@@ -331,9 +333,9 @@
      "pos": "WR",
      "team": "GB",
      "ecr": 36.83,
-     "score": 0.75,
-     "start": 0.62,
-     "flex": 0.32,
+     "score": 0.765,
+     "start": 0.65,
+     "flex": 0.29,
      "bench": 0.06
     }
    ]
@@ -434,6 +436,8 @@
    },
    "fill_ins": {},
    "set_at": "2026-10-27T12:29:21.890189+00:00",
+   "error": "401 Client Error: Unauthorized for url: https://api.fastino.ai/v1/chat/completions",
+   "error_at": "2026-10-28T12:21:30.353272+00:00",
    "players": [
     {
      "player_id": "00-0036971",
@@ -530,56 +534,56 @@
    ],
    "scores": {
     "00-0033873": {
-     "score": 16.9,
+     "score": 16.3,
      "expert_rank": "QB15"
     },
     "00-0036223": {
-     "score": 16.2,
-     "expert_rank": "RB8"
+     "score": 16.8,
+     "expert_rank": "RB9"
     },
     "00-0036442": {
-     "score": 20.7,
+     "score": 23.0,
      "expert_rank": "QB3"
     },
     "00-0036912": {
-     "score": 0.0,
-     "expert_rank": null
+     "score": 4.8,
+     "expert_rank": "WR80"
     },
     "00-0037247": {
-     "score": 14.7,
-     "expert_rank": "WR13"
+     "score": 14.8,
+     "expert_rank": "WR14"
     },
     "00-0037840": {
-     "score": 18.1,
+     "score": 19.2,
      "expert_rank": "RB4"
     },
     "00-0038134": {
-     "score": 18.5,
+     "score": 19.5,
      "expert_rank": "RB3"
     },
     "00-0038606": {
-     "score": 15.3,
+     "score": 15.8,
      "expert_rank": "WR11"
     },
     "00-0039915": {
-     "score": 11.2,
+     "score": 10.9,
      "expert_rank": "WR30"
     },
     "00-0040128": {
-     "score": 9.0,
-     "expert_rank": "TE15"
+     "score": 8.4,
+     "expert_rank": "TE18"
     },
     "00-0040663": {
      "score": 10.4,
      "expert_rank": "TE11"
     },
     "00-0040719": {
-     "score": 15.0,
+     "score": 15.3,
      "expert_rank": "RB14"
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-27T12:29:21.890189+00:00",
+   "set_at": "2026-10-28T12:21:30.353272+00:00",
    "players": [
     {
      "player_id": "00-0036442",
@@ -587,7 +591,7 @@
      "pos": "QB",
      "team": "CIN",
      "ecr": 56.17,
-     "score": 20.7,
+     "score": 23.0,
      "expert_rank": "QB3"
     },
     {
@@ -596,7 +600,7 @@
      "pos": "RB",
      "team": "KC",
      "ecr": 7.5,
-     "score": 18.5,
+     "score": 19.5,
      "expert_rank": "RB3"
     },
     {
@@ -605,7 +609,7 @@
      "pos": "RB",
      "team": "LA",
      "ecr": 46.67,
-     "score": 18.1,
+     "score": 19.2,
      "expert_rank": "RB4"
     },
     {
@@ -614,7 +618,7 @@
      "pos": "WR",
      "team": "JAX",
      "ecr": 29.67,
-     "score": 15.3,
+     "score": 15.8,
      "expert_rank": "WR11"
     },
     {
@@ -623,8 +627,8 @@
      "pos": "WR",
      "team": "DAL",
      "ecr": 19.83,
-     "score": 14.7,
-     "expert_rank": "WR13"
+     "score": 14.8,
+     "expert_rank": "WR14"
     },
     {
      "player_id": "00-0040663",
@@ -641,8 +645,8 @@
      "pos": "RB",
      "team": "IND",
      "ecr": 7.0,
-     "score": 16.2,
-     "expert_rank": "RB8"
+     "score": 16.8,
+     "expert_rank": "RB9"
     }
    ]
   },
@@ -693,7 +697,7 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-27T12:29:21.890189+00:00",
+   "set_at": "2026-10-28T12:21:30.353272+00:00",
    "players": [
     {
      "player_id": "00-0036355",
@@ -803,7 +807,7 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-10-27T12:29:21.890189+00:00",
+   "set_at": "2026-10-28T12:21:30.353272+00:00",
    "players": [
     {
      "player_id": "00-0036389",
