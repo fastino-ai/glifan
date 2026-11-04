@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 9,
- "updated_at": "2026-11-03T12:17:53.327206+00:00",
+ "updated_at": "2026-11-04T12:17:56.751999+00:00",
  "model": "e8f2eeb5-e168-4ffa-a992-f557d7357edd",
  "teams": {
   "glifan": {
@@ -20,7 +20,7 @@
    ],
    "scores": {},
    "error": "401 Client Error: Unauthorized for url: https://api.fastino.ai/v1/chat/completions",
-   "error_at": "2026-11-03T12:17:53.327206+00:00"
+   "error_at": "2026-11-04T12:17:56.751999+00:00"
   },
   "jev": {
    "name": "Jev",
@@ -34,50 +34,50 @@
     "00-0036322",
     "00-0038124",
     "00-0039338",
-    "00-0037239"
+    "00-0037240"
    ],
    "scores": {
     "00-0031381": {
-     "score": 0.565,
-     "start": 0.37,
-     "flex": 0.51,
+     "score": 0.59,
+     "start": 0.42,
+     "flex": 0.46,
      "bench": 0.12
     },
     "00-0034857": {
-     "score": 0.34,
-     "start": 0.36,
-     "flex": 0.3,
-     "bench": 0.34
+     "score": 0.42,
+     "start": 0.44,
+     "flex": 0.26,
+     "bench": 0.3
     },
     "00-0036322": {
-     "score": 0.96,
-     "start": 0.94,
-     "flex": 0.05,
+     "score": 0.955,
+     "start": 0.93,
+     "flex": 0.06,
      "bench": 0.01
     },
     "00-0036555": {
-     "score": 0.9,
-     "start": 0.82,
-     "flex": 0.17,
+     "score": 0.92,
+     "start": 0.86,
+     "flex": 0.13,
      "bench": 0.01
     },
     "00-0037239": {
-     "score": 0.695,
-     "start": 0.55,
-     "flex": 0.37,
-     "bench": 0.08
+     "score": 0.6,
+     "start": 0.44,
+     "flex": 0.44,
+     "bench": 0.12
     },
     "00-0037240": {
-     "score": 0.66,
+     "score": 0.67,
      "start": 0.58,
-     "flex": 0.29,
-     "bench": 0.13
+     "flex": 0.3,
+     "bench": 0.12
     },
     "00-0037744": {
      "score": 0.35,
-     "start": 0.22,
-     "flex": 0.52,
-     "bench": 0.26
+     "start": 0.26,
+     "flex": 0.46,
+     "bench": 0.28
     },
     "00-0038124": {
      "score": 0.835,
@@ -92,26 +92,26 @@
      "bench": 0.01
     },
     "00-0039338": {
-     "score": 0.805,
-     "start": 0.69,
-     "flex": 0.27,
+     "score": 0.775,
+     "start": 0.63,
+     "flex": 0.33,
      "bench": 0.04
     },
     "00-0039851": {
-     "score": 0.34,
-     "start": 0.3,
+     "score": 0.31,
+     "start": 0.28,
      "flex": 0.39,
-     "bench": 0.31
+     "bench": 0.33
     },
     "00-0040734": {
-     "score": -0.045,
-     "start": 0.09,
-     "flex": 0.32,
+     "score": -0.04,
+     "start": 0.1,
+     "flex": 0.31,
      "bench": 0.59
     }
    },
    "fill_ins": {},
-   "set_at": "2026-11-03T12:17:53.327206+00:00"
+   "set_at": "2026-11-04T12:17:56.751999+00:00"
   },
   "decide_base": {
    "name": "GLiNER Decide (untrained)",
@@ -129,7 +129,7 @@
    ],
    "scores": {},
    "error": "401 Client Error: Unauthorized for url: https://api.fastino.ai/v1/chat/completions",
-   "error_at": "2026-11-03T12:17:53.327206+00:00"
+   "error_at": "2026-11-04T12:17:56.751999+00:00"
   },
   "experts": {
    "name": "FantasyPros experts",
@@ -139,36 +139,36 @@
    "lineup": [
     "00-0036442",
     "00-0038134",
-    "00-0040719",
+    "00-0037840",
     "00-0039337",
     "00-0038606",
     "00-0040663",
-    "00-0037840"
+    "00-0040719"
    ],
    "scores": {
     "00-0033873": {
-     "score": 17.8,
-     "expert_rank": "QB12"
+     "score": 19.1,
+     "expert_rank": "QB9"
     },
     "00-0036223": {
-     "score": 12.7,
-     "expert_rank": "RB20"
+     "score": 13.9,
+     "expert_rank": "RB16"
     },
     "00-0036442": {
      "score": 22.9,
      "expert_rank": "QB1"
     },
     "00-0036912": {
-     "score": 9.3,
-     "expert_rank": "WR47"
+     "score": 7.7,
+     "expert_rank": "WR55"
     },
     "00-0037247": {
      "score": 13.2,
      "expert_rank": "WR18"
     },
     "00-0037840": {
-     "score": 16.3,
-     "expert_rank": "RB9"
+     "score": 17.2,
+     "expert_rank": "RB7"
     },
     "00-0038134": {
      "score": 21.7,
@@ -183,8 +183,8 @@
      "expert_rank": "WR6"
     },
     "00-0039915": {
-     "score": 10.5,
-     "expert_rank": "WR32"
+     "score": 10.8,
+     "expert_rank": "WR30"
     },
     "00-0040128": {
      "score": 11.5,
@@ -195,12 +195,12 @@
      "expert_rank": "TE7"
     },
     "00-0040719": {
-     "score": 17.2,
-     "expert_rank": "RB7"
+     "score": 16.1,
+     "expert_rank": "RB10"
     }
    },
    "fill_ins": {},
-   "set_at": "2026-11-03T12:17:53.327206+00:00"
+   "set_at": "2026-11-04T12:17:56.751999+00:00"
   },
   "season_avg": {
    "name": "Season-average manager",
@@ -258,7 +258,7 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-11-03T12:17:53.327206+00:00"
+   "set_at": "2026-11-04T12:17:56.751999+00:00"
   },
   "hot_hand": {
    "name": "Hot-hand manager",
@@ -316,7 +316,7 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-11-03T12:17:53.327206+00:00"
+   "set_at": "2026-11-04T12:17:56.751999+00:00"
   }
  }
 }
