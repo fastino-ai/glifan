@@ -20,7 +20,17 @@
    ],
    "scores": {},
    "error": "401 Client Error: Unauthorized for url: https://api.fastino.ai/v1/chat/completions",
-   "error_at": "2026-11-08T19:47:29.531557+00:00"
+   "error_at": "2026-11-08T19:47:29.531557+00:00",
+   "points": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "optimal_points": 104.7
   },
   "jev": {
    "name": "Jev",
@@ -111,7 +121,17 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-11-08T19:47:29.531557+00:00"
+   "set_at": "2026-11-08T19:47:29.531557+00:00",
+   "points": [
+    18.26,
+    13.4,
+    13.6,
+    8.8,
+    30.1,
+    22.3,
+    5.0
+   ],
+   "optimal_points": 126.86
   },
   "decide_base": {
    "name": "GLiNER Decide (untrained)",
@@ -129,7 +149,17 @@
    ],
    "scores": {},
    "error": "401 Client Error: Unauthorized for url: https://api.fastino.ai/v1/chat/completions",
-   "error_at": "2026-11-08T19:47:29.531557+00:00"
+   "error_at": "2026-11-08T19:47:29.531557+00:00",
+   "points": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "optimal_points": 145.38
   },
   "experts": {
    "name": "FantasyPros experts",
@@ -200,7 +230,17 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-11-08T19:47:29.531557+00:00"
+   "set_at": "2026-11-08T19:47:29.531557+00:00",
+   "points": [
+    29.54,
+    36.3,
+    9.1,
+    9.3,
+    14.1,
+    8.4,
+    9.4
+   ],
+   "optimal_points": 119.94
   },
   "season_avg": {
    "name": "Season-average manager",
@@ -258,7 +298,17 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-11-08T19:47:29.531557+00:00"
+   "set_at": "2026-11-08T19:47:29.531557+00:00",
+   "points": [
+    25.28,
+    3.1,
+    5.58,
+    12.1,
+    33.5,
+    9.4,
+    15.5
+   ],
+   "optimal_points": 113.16
   },
   "hot_hand": {
    "name": "Hot-hand manager",
@@ -316,7 +366,51 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-11-08T19:47:29.531557+00:00"
+   "set_at": "2026-11-08T19:47:29.531557+00:00",
+   "points": [
+    0.0,
+    16.7,
+    7.0,
+    31.5,
+    20.7,
+    7.2,
+    6.9
+   ],
+   "optimal_points": 97.9
   }
+ },
+ "results": {
+  "totals": {
+   "glifan": 0.0,
+   "jev": 111.46,
+   "decide_base": 0.0,
+   "experts": 116.14,
+   "season_avg": 104.46,
+   "hot_hand": 90.0
+  },
+  "matchups": [
+   {
+    "home": "jev",
+    "away": "experts",
+    "home_pts": 111.46,
+    "away_pts": 116.14,
+    "winner": "experts"
+   },
+   {
+    "home": "decide_base",
+    "away": "glifan",
+    "home_pts": 0.0,
+    "away_pts": 0.0,
+    "winner": null
+   },
+   {
+    "home": "hot_hand",
+    "away": "season_avg",
+    "home_pts": 90.0,
+    "away_pts": 104.46,
+    "winner": "season_avg"
+   }
+  ],
+  "graded_at": "2026-11-10T12:17:52.286891+00:00"
  }
 }

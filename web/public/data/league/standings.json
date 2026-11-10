@@ -1,66 +1,66 @@
 {
  "season": 2026,
- "updated_at": "2026-11-08T19:47:51.058244+00:00",
+ "updated_at": "2026-11-10T12:17:52.289206+00:00",
  "table": [
   {
    "key": "experts",
-   "w": 4,
+   "w": 5,
    "l": 1,
    "t": 0,
-   "pf": 643.36,
-   "pa": 538.54,
-   "optimal": 718.26,
-   "weeks": 5
+   "pf": 759.5,
+   "pa": 650.0,
+   "optimal": 838.2,
+   "weeks": 6
   },
   {
-   "key": "jev",
-   "w": 3,
+   "key": "season_avg",
+   "w": 4,
    "l": 2,
    "t": 0,
-   "pf": 629.28,
-   "pa": 542.62,
-   "optimal": 754.02,
-   "weeks": 5
+   "pf": 669.8,
+   "pa": 631.78,
+   "optimal": 720.6,
+   "weeks": 6
   },
   {
    "key": "decide_base",
    "w": 3,
    "l": 2,
-   "t": 0,
+   "t": 1,
    "pf": 596.18,
    "pa": 566.46,
-   "optimal": 695.88,
-   "weeks": 5
+   "optimal": 841.26,
+   "weeks": 6
   },
   {
-   "key": "season_avg",
+   "key": "jev",
    "w": 3,
-   "l": 2,
+   "l": 3,
    "t": 0,
-   "pf": 565.34,
-   "pa": 541.78,
-   "optimal": 607.44,
-   "weeks": 5
+   "pf": 740.74,
+   "pa": 658.76,
+   "optimal": 880.88,
+   "weeks": 6
   },
   {
    "key": "glifan",
    "w": 1,
    "l": 4,
-   "t": 0,
+   "t": 1,
    "pf": 499.34,
    "pa": 620.5,
-   "optimal": 581.22,
-   "weeks": 5
+   "optimal": 685.92,
+   "weeks": 6
   },
   {
    "key": "hot_hand",
    "w": 1,
-   "l": 4,
+   "l": 5,
    "t": 0,
-   "pf": 470.28,
-   "pa": 593.88,
-   "optimal": 533.58,
-   "weeks": 5
+   "pf": 560.28,
+   "pa": 698.34,
+   "optimal": 631.48,
+   "weeks": 6
   }
  ]
 }
