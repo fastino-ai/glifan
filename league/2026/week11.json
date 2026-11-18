@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 11,
- "updated_at": "2026-11-17T12:18:39.097027+00:00",
+ "updated_at": "2026-11-18T12:18:16.157677+00:00",
  "model": "e8f2eeb5-e168-4ffa-a992-f557d7357edd",
  "teams": {
   "glifan": {
@@ -20,7 +20,7 @@
    ],
    "scores": {},
    "error": "401 Client Error: Unauthorized for url: https://api.fastino.ai/v1/chat/completions",
-   "error_at": "2026-11-17T12:18:39.097027+00:00"
+   "error_at": "2026-11-18T12:18:16.157677+00:00"
   },
   "jev": {
    "name": "Jev",
@@ -33,15 +33,15 @@
     "00-0039139",
     "00-0036322",
     "00-0037240",
-    "00-0037744",
-    "00-0039338"
+    "00-0039338",
+    "00-0037744"
    ],
    "scores": {
     "00-0034857": {
-     "score": 0.615,
-     "start": 0.43,
+     "score": 0.6,
+     "start": 0.42,
      "flex": 0.47,
-     "bench": 0.1
+     "bench": 0.11
     },
     "00-0036322": {
      "score": 0.93,
@@ -50,28 +50,28 @@
      "bench": 0.01
     },
     "00-0036555": {
-     "score": 0.925,
-     "start": 0.87,
-     "flex": 0.12,
+     "score": 0.915,
+     "start": 0.85,
+     "flex": 0.14,
      "bench": 0.01
     },
     "00-0037228": {
-     "score": 0.675,
+     "score": 0.665,
      "start": 0.45,
-     "flex": 0.5,
-     "bench": 0.05
+     "flex": 0.49,
+     "bench": 0.06
     },
     "00-0037239": {
-     "score": 0.53,
-     "start": 0.36,
-     "flex": 0.49,
+     "score": 0.525,
+     "start": 0.35,
+     "flex": 0.5,
      "bench": 0.15
     },
     "00-0037240": {
-     "score": 0.715,
-     "start": 0.55,
-     "flex": 0.39,
-     "bench": 0.06
+     "score": 0.72,
+     "start": 0.54,
+     "flex": 0.41,
+     "bench": 0.05
     },
     "00-0037744": {
      "score": 0.74,
@@ -80,20 +80,20 @@
      "bench": 0.07
     },
     "00-0039139": {
-     "score": 0.69,
-     "start": 0.5,
-     "flex": 0.44,
-     "bench": 0.06
+     "score": 0.72,
+     "start": 0.54,
+     "flex": 0.41,
+     "bench": 0.05
     },
     "00-0039338": {
-     "score": 0.735,
-     "start": 0.69,
-     "flex": 0.2,
-     "bench": 0.11
+     "score": 0.775,
+     "start": 0.73,
+     "flex": 0.18,
+     "bench": 0.09
     }
    },
    "fill_ins": {},
-   "set_at": "2026-11-17T12:18:39.097027+00:00"
+   "set_at": "2026-11-18T12:18:16.157677+00:00"
   },
   "decide_base": {
    "name": "GLiNER Decide (untrained)",
@@ -111,7 +111,7 @@
    ],
    "scores": {},
    "error": "401 Client Error: Unauthorized for url: https://api.fastino.ai/v1/chat/completions",
-   "error_at": "2026-11-17T12:18:39.097027+00:00"
+   "error_at": "2026-11-18T12:18:16.157677+00:00"
   },
   "experts": {
    "name": "FantasyPros experts",
@@ -129,43 +129,43 @@
    ],
    "scores": {
     "00-0033873": {
-     "score": 23.2,
+     "score": 23.1,
      "expert_rank": "QB3"
     },
     "00-0036223": {
-     "score": 16.3,
-     "expert_rank": "RB11"
+     "score": 15.0,
+     "expert_rank": "RB14"
     },
     "00-0036442": {
-     "score": 26.3,
+     "score": 25.2,
      "expert_rank": "QB1"
     },
     "00-0036912": {
-     "score": 8.0,
-     "expert_rank": "WR48"
+     "score": 7.0,
+     "expert_rank": "WR55"
     },
     "00-0037247": {
-     "score": 16.7,
-     "expert_rank": "WR7"
+     "score": 15.9,
+     "expert_rank": "WR8"
     },
     "00-0038134": {
-     "score": 15.3,
-     "expert_rank": "RB14"
+     "score": 12.5,
+     "expert_rank": "RB20"
     },
     "00-0038606": {
-     "score": 17.5,
-     "expert_rank": "WR5"
-    },
-    "00-0039337": {
      "score": 16.9,
      "expert_rank": "WR6"
     },
+    "00-0039337": {
+     "score": 16.3,
+     "expert_rank": "WR7"
+    },
     "00-0039915": {
-     "score": 8.7,
-     "expert_rank": "WR44"
+     "score": 6.9,
+     "expert_rank": "WR58"
     },
     "00-0040128": {
-     "score": 10.3,
+     "score": 10.0,
      "expert_rank": "TE8"
     },
     "00-0040719": {
@@ -174,7 +174,7 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-11-17T12:18:39.097027+00:00"
+   "set_at": "2026-11-18T12:18:16.157677+00:00"
   },
   "season_avg": {
    "name": "Season-average manager",
@@ -226,7 +226,7 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-11-17T12:18:39.097027+00:00"
+   "set_at": "2026-11-18T12:18:16.157677+00:00"
   },
   "hot_hand": {
    "name": "Hot-hand manager",
@@ -281,7 +281,7 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-11-17T12:18:39.097027+00:00"
+   "set_at": "2026-11-18T12:18:16.157677+00:00"
   }
  }
 }
