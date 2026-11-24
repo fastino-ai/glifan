@@ -1,0 +1,249 @@
+{
+ "season": 2026,
+ "week": 12,
+ "updated_at": "2026-11-24T12:19:24.217746+00:00",
+ "model": "e8f2eeb5-e168-4ffa-a992-f557d7357edd",
+ "teams": {
+  "glifan": {
+   "name": "glifan (GLiNER Decide, fine-tuned)",
+   "kind": "ai",
+   "model": "e8f2eeb5-e168-4ffa-a992-f557d7357edd",
+   "params": "340M",
+   "lineup": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "scores": {},
+   "error": "401 Client Error: Unauthorized for url: https://api.fastino.ai/v1/chat/completions",
+   "error_at": "2026-11-24T12:19:24.217746+00:00"
+  },
+  "jev": {
+   "name": "Jev",
+   "kind": "ai",
+   "model": "typesafe-ai/jev",
+   "params": "undisclosed",
+   "lineup": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "scores": {},
+   "error": "401 Client Error: Unauthorized for url: https://ai-gateway.vercel.sh/v1/evaluate",
+   "error_at": "2026-11-24T12:19:24.217746+00:00"
+  },
+  "decide_base": {
+   "name": "GLiNER Decide (untrained)",
+   "kind": "ai",
+   "model": "fastino/GLiNER-2.5-Decide",
+   "params": "340M",
+   "lineup": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "scores": {},
+   "error": "401 Client Error: Unauthorized for url: https://api.fastino.ai/v1/chat/completions",
+   "error_at": "2026-11-24T12:19:24.217746+00:00"
+  },
+  "experts": {
+   "name": "FantasyPros experts",
+   "kind": "bot",
+   "model": "weekly expert consensus",
+   "params": "humans",
+   "lineup": [
+    "00-0036442",
+    "00-0040719",
+    "00-0036223",
+    "00-0037247",
+    "00-0039337",
+    "00-0040128",
+    "00-0038606"
+   ],
+   "scores": {
+    "00-0033873": {
+     "score": 22.1,
+     "expert_rank": "QB4"
+    },
+    "00-0036223": {
+     "score": 14.9,
+     "expert_rank": "RB15"
+    },
+    "00-0036442": {
+     "score": 25.2,
+     "expert_rank": "QB1"
+    },
+    "00-0036912": {
+     "score": 12.2,
+     "expert_rank": "WR20"
+    },
+    "00-0037247": {
+     "score": 16.6,
+     "expert_rank": "WR7"
+    },
+    "00-0037840": {
+     "score": 0.0,
+     "expert_rank": null
+    },
+    "00-0038134": {
+     "score": 0.0,
+     "expert_rank": null
+    },
+    "00-0038606": {
+     "score": 15.4,
+     "expert_rank": "WR10"
+    },
+    "00-0039337": {
+     "score": 15.6,
+     "expert_rank": "WR8"
+    },
+    "00-0039915": {
+     "score": 7.8,
+     "expert_rank": "WR50"
+    },
+    "00-0040128": {
+     "score": 10.0,
+     "expert_rank": "TE9"
+    },
+    "00-0040663": {
+     "score": 0.0,
+     "expert_rank": null
+    },
+    "00-0040719": {
+     "score": 16.7,
+     "expert_rank": "RB10"
+    }
+   },
+   "fill_ins": {},
+   "set_at": "2026-11-24T12:19:24.217746+00:00"
+  },
+  "season_avg": {
+   "name": "Season-average manager",
+   "kind": "bot",
+   "model": "season PPR average",
+   "params": "0",
+   "lineup": [
+    "00-0037834",
+    "00-0036275",
+    "00-0032764",
+    "00-0038543",
+    "00-0036358",
+    "00-0040126",
+    "00-0036554"
+   ],
+   "scores": {
+    "00-0032764": {
+     "score": 16.39818181818182
+    },
+    "00-0034827": {
+     "score": 12.75
+    },
+    "00-0036275": {
+     "score": 16.57
+    },
+    "00-0036355": {
+     "score": 11.934000000000001
+    },
+    "00-0036358": {
+     "score": 22.927272727272726
+    },
+    "00-0036554": {
+     "score": 16.35
+    },
+    "00-0036613": {
+     "score": 9.11
+    },
+    "00-0037834": {
+     "score": 22.516
+    },
+    "00-0038543": {
+     "score": 26.316000000000003
+    },
+    "00-0040126": {
+     "score": 9.52
+    },
+    "00-0040715": {
+     "score": 12.924999999999999
+    },
+    "00-0041027": {
+     "score": 8.9
+    },
+    "00-0041512": {
+     "score": 7.1499999999999995
+    }
+   },
+   "fill_ins": {},
+   "set_at": "2026-11-24T12:19:24.217746+00:00"
+  },
+  "hot_hand": {
+   "name": "Hot-hand manager",
+   "kind": "bot",
+   "model": "last-3-games PPR average",
+   "params": "0",
+   "lineup": [
+    "00-0036389",
+    "00-0037248",
+    "00-0035685",
+    "00-0036900",
+    "00-0031408",
+    "00-0039065",
+    "00-0040122"
+   ],
+   "scores": {
+    "00-0031408": {
+     "score": 22.9
+    },
+    "00-0034796": {
+     "score": 0.0
+    },
+    "00-0035685": {
+     "score": 15.4
+    },
+    "00-0036389": {
+     "score": 13.259999999999998
+    },
+    "00-0036875": {
+     "score": 9.433333333333334
+    },
+    "00-0036900": {
+     "score": 24.56666666666666
+    },
+    "00-0037248": {
+     "score": 18.533333333333335
+    },
+    "00-0039065": {
+     "score": 6.333333333333336
+    },
+    "00-0039491": {
+     "score": 5.1999999999999975
+    },
+    "00-0040122": {
+     "score": 15.1
+    },
+    "00-0040129": {
+     "score": 5.35
+    },
+    "00-0040666": {
+     "score": 11.266666666666667
+    },
+    "00-0040735": {
+     "score": 14.199999999999998
+    }
+   },
+   "fill_ins": {},
+   "set_at": "2026-11-24T12:19:24.217746+00:00"
+  }
+ }
+}
