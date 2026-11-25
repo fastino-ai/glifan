@@ -1,7 +1,7 @@
 {
  "season": 2026,
  "week": 12,
- "updated_at": "2026-11-24T12:19:24.217746+00:00",
+ "updated_at": "2026-11-25T12:19:27.814632+00:00",
  "model": "e8f2eeb5-e168-4ffa-a992-f557d7357edd",
  "teams": {
   "glifan": {
@@ -20,7 +20,7 @@
    ],
    "scores": {},
    "error": "401 Client Error: Unauthorized for url: https://api.fastino.ai/v1/chat/completions",
-   "error_at": "2026-11-24T12:19:24.217746+00:00"
+   "error_at": "2026-11-25T12:19:27.814632+00:00"
   },
   "jev": {
    "name": "Jev",
@@ -38,7 +38,7 @@
    ],
    "scores": {},
    "error": "401 Client Error: Unauthorized for url: https://ai-gateway.vercel.sh/v1/evaluate",
-   "error_at": "2026-11-24T12:19:24.217746+00:00"
+   "error_at": "2026-11-25T12:19:27.814632+00:00"
   },
   "decide_base": {
    "name": "GLiNER Decide (untrained)",
@@ -56,7 +56,7 @@
    ],
    "scores": {},
    "error": "401 Client Error: Unauthorized for url: https://api.fastino.ai/v1/chat/completions",
-   "error_at": "2026-11-24T12:19:24.217746+00:00"
+   "error_at": "2026-11-25T12:19:27.814632+00:00"
   },
   "experts": {
    "name": "FantasyPros experts",
@@ -65,69 +65,69 @@
    "params": "humans",
    "lineup": [
     "00-0036442",
-    "00-0040719",
+    "00-0037840",
     "00-0036223",
+    "00-0038606",
     "00-0037247",
-    "00-0039337",
-    "00-0040128",
-    "00-0038606"
+    "00-0040663",
+    "00-0039337"
    ],
    "scores": {
     "00-0033873": {
-     "score": 22.1,
-     "expert_rank": "QB4"
+     "score": 19.4,
+     "expert_rank": "QB7"
     },
     "00-0036223": {
-     "score": 14.9,
-     "expert_rank": "RB15"
+     "score": 14.4,
+     "expert_rank": "RB19"
     },
     "00-0036442": {
-     "score": 25.2,
+     "score": 24.4,
      "expert_rank": "QB1"
     },
     "00-0036912": {
-     "score": 12.2,
-     "expert_rank": "WR20"
+     "score": 13.6,
+     "expert_rank": "WR17"
     },
     "00-0037247": {
-     "score": 16.6,
-     "expert_rank": "WR7"
-    },
-    "00-0037840": {
-     "score": 0.0,
-     "expert_rank": null
-    },
-    "00-0038134": {
-     "score": 0.0,
-     "expert_rank": null
-    },
-    "00-0038606": {
-     "score": 15.4,
-     "expert_rank": "WR10"
-    },
-    "00-0039337": {
-     "score": 15.6,
+     "score": 16.4,
      "expert_rank": "WR8"
     },
+    "00-0037840": {
+     "score": 14.6,
+     "expert_rank": "RB14"
+    },
+    "00-0038134": {
+     "score": 14.3,
+     "expert_rank": "RB21"
+    },
+    "00-0038606": {
+     "score": 18.4,
+     "expert_rank": "WR5"
+    },
+    "00-0039337": {
+     "score": 15.7,
+     "expert_rank": "WR11"
+    },
     "00-0039915": {
-     "score": 7.8,
-     "expert_rank": "WR50"
+     "score": 11.4,
+     "expert_rank": "WR30"
     },
     "00-0040128": {
-     "score": 10.0,
-     "expert_rank": "TE9"
+     "score": 9.7,
+     "expert_rank": "TE13"
     },
     "00-0040663": {
-     "score": 0.0,
-     "expert_rank": null
+     "score": 10.7,
+     "expert_rank": "TE7"
     },
     "00-0040719": {
-     "score": 16.7,
-     "expert_rank": "RB10"
+     "score": 11.8,
+     "expert_rank": "RB26"
     }
    },
    "fill_ins": {},
-   "set_at": "2026-11-24T12:19:24.217746+00:00"
+   "set_at": "2026-11-25T12:19:27.814632+00:00"
   },
   "season_avg": {
    "name": "Season-average manager",
@@ -185,7 +185,7 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-11-24T12:19:24.217746+00:00"
+   "set_at": "2026-11-25T12:19:27.814632+00:00"
   },
   "hot_hand": {
    "name": "Hot-hand manager",
@@ -243,7 +243,7 @@
     }
    },
    "fill_ins": {},
-   "set_at": "2026-11-24T12:19:24.217746+00:00"
+   "set_at": "2026-11-25T12:19:27.814632+00:00"
   }
  }
 }
